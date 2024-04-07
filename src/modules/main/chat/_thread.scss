@@ -63,10 +63,21 @@
     }
 }
 
+.theme-dark .chat_f8f70f{
+    border-top: 1px solid $CardStrokeColorDefault;
+    border-left: 1px solid $CardStrokeColorDefault;
+    border-radius: 8px 0 0 0;
+    &::before{
+        display: none;
+    }
+}
 .theme-dark .chat__52833.threadSidebarOpen__62c31{
     border-radius: 0;
     .content__01e65{
         border-right: 1px solid $CardStrokeColorDefault;
+        border-radius: 8px 8px 0 0;
+    }
+    .chatContent_f087cb{
         border-radius: 8px 8px 0 0;
     }
 }
