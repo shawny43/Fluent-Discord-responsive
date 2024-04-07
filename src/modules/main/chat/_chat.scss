@@ -177,6 +177,11 @@
     border-radius: 8px;
 }
 
+// inline code
+.markup_a7e664 code{
+    background-color: $LayerFillColorDefault;
+}
+
 // Blocked message
 .compact_e39360 .blockedSystemMessage_d1b25e{
     margin-left: -5ch;
