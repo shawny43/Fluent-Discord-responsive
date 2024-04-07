@@ -205,6 +205,11 @@
     }
 }
 
+// Remove avatar borders/decorations
+.avatarDecoration__8a0c2{
+    display: var(--fluent-show-avatar-decorations);
+}
+
 // Loading chat messages
 .wrapper-3HVHpV{
     background-color: transparent;

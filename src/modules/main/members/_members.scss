@@ -82,3 +82,9 @@
         }
     }
 }
+
+// Remove avatar borders/decorations
+// This also removes them from user profile popouts and modals, but not cozy chat.
+.avatarDecoration_cf681a{
+    display: var(--fluent-show-avatar-decorations);
+}
