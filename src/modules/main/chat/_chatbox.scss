@@ -3,8 +3,9 @@
     margin-top: 0;
     padding-right: 17px;
     padding-left: 15px;
-    // Remove gradient on left
-    &::before{
+    // Remove gradient on left and right
+    &::before,
+    &::after{
         display: none;
     }
 
