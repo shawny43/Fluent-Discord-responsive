@@ -137,8 +137,9 @@
                 &.contextMenuContainer__7fb37{
                     margin: 0 4px;
                     display: flex;
-                    svg{
+                    .svg_bb7847 {
                         width: 72px !important; // Force width
+                        transform: scale(1.75, 1.75) translate(0, 7px) !important; // This is a hack to get around a viewBox property which causes the button to scale
                     }
                     foreignObject{
                         mask: none;
