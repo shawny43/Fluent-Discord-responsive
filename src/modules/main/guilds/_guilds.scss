@@ -59,12 +59,12 @@
             svg foreignObject{
                 mask: none;
             }
-            .icon__11cf1{
+            .icon_e2a8c1{
                 width: var(--fluent-guilds-icon-size);
                 height: auto;
                 border-radius: 50%;
             }
-            .acronym_fb7739{
+            .acronym__88ca6{
                 width: 24px;
                 height: 24px;
                 background-color: transparent;
@@ -74,9 +74,9 @@
         }
 
         // Home
-        .wrapper__8436d{
+        .wrapper_a6f950{
             &[data-list-item-id="guildsnav___home"]{
-                .childWrapper_a6ce15{
+                .childWrapper__760c6 {
                     background-color: transparent;
                     &::before{
                         content: "\E80F"; // Home
@@ -91,7 +91,7 @@
             }
         }
         // Remove Home :active transform
-        .blobContainer_c44493:active{
+        .listItemWrapper__3d465:active{
             transform: none;
         }
 
@@ -139,7 +139,7 @@
             bottom: 6px;
             z-index: 1;
         }
-        .numberBadge__40d6f{
+        .numberBadge_c1210c {
             background-color: $SystemFillColorCritical !important; // Override inline
             @include TypeCaption;
             color: $TextOnAccentFillColorPrimary;
