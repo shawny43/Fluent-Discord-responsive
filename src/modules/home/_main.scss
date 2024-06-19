@@ -1,6 +1,6 @@
-.theme-dark .container_bd15da{
+.theme-dark .container_c2739c{
     // Body
-    .tabBody_a90ea8{
+    .tabBody_c2739c{
         background-color: $LayerFillColorDefault;
         border-top: 1px solid $CardStrokeColorDefault;
         border-left: 1px solid $CardStrokeColorDefault;
@@ -10,13 +10,13 @@
         }
 
         // Search bar
-        .searchBar__310d8{
+        .searchBar_e0840f{
             margin: 18px 20px 8px 20px;
             background-color: transparent;
         }
 
         // Header
-        .title_c42cad{
+        .title_a1cafe{
             @include TypeSubtitle;
             color: $TextFillColorPrimary;
             letter-spacing: normal;
@@ -24,35 +24,35 @@
         }
 
         // Item
-        .peopleListItem_dab480.active__6b8ff,
-        .peopleListItem_dab480:hover{
+        .peopleListItem_d51464.active_d51464,
+        .peopleListItem_d51464:hover{
             border-radius: 4px;
         }
 
         // Username
-        .username__267df{
+        .username_f3939d{
             @include TypeBodyStrong;
         }
         // User Status
-        .text_bd79a3{
+        .text_f7ebfd{
             @include TypeCaption;
         }
 
         // Buttons
-        .actionButton__2b4bb{
+        .actionButton_e01b91{
             background-color: transparent;
             visibility: hidden;
         }
 
         // Show buttons when hovered
-        .peopleListItem_dab480.active__6b8ff .actionButton__2b4bb,
-        .peopleListItem_dab480:hover .actionButton__2b4bb{
+        .peopleListItem_d51464.active_d51464 .actionButton_e01b91,
+        .peopleListItem_d51464:hover .actionButton_e01b91{
             visibility: visible;
         }
     }
 
     // Empty
-    .friendsEmpty__38a29{
+    .friendsEmpty_a62993{
         .image__08515{
             filter: brightness(200%)
         }
@@ -63,27 +63,27 @@
     }
 
     // Add friend
-    .header__6ddae{
+    .header_c96274{
         padding: 20px;
     }
-    .addFriendInputWrapper__2b30b{
+    .addFriendInputWrapper_de812f{
         padding: 0;
         background-color: transparent;
         border: 0;
-        .input_f27786{
+        .input_f8bc55{
             padding: 0 12px;
             letter-spacing: normal;
         }
     }
     // Remove hint text
-    .addFriendHint__6eee6{
+    .addFriendHint_de812f{
         display: none;
     }
 }
 
 // Icon replacements
-html[lang^="en-"].theme-dark .container_bd15da{
-    .actionButton__2b4bb{
+html[lang^="en-"].theme-dark .container_c2739c{
+    .actionButton_e01b91{
         &::before{
             @include FontIconFluent;
             color: $TextFillColorSecondary;

@@ -1,20 +1,20 @@
-.theme-dark .profilePanel_e2cafe{
-    .userProfileOuterUnthemed__9741c{
+.theme-dark .profilePanel_b433b4{
+    .userProfileOuterUnthemed_c69a7b{
         background-color: transparent;
         border-left: 1px solid $CardStrokeColorDefault;
     }
-    .userPanelInnerThemed__651e4{
+    .userPanelInnerThemed_c69a7b{
         background: $LayerFillColorDefault;
     }
 
     // Section title
-    .title__392bc,
-    .headerText-3g1XK9{ // 'Deprecated' spotify title
+    .title_c4a579,
+    .headerText_d5089b{ // 'Deprecated' spotify title
         @include TypeBodyStrong;
         text-transform: none;
     }
 
-    .overlayBackground__345c9{
+    .overlayBackground_c69a7b{
         background-color: $LayerOnAcrylicFillColorDefult;
     }
 }

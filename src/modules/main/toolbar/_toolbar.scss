@@ -1,46 +1,46 @@
-.theme-dark .title_d4ba1a, // Normal toolbar
-.theme-dark .container-ZMc96U{ // Browse channels toolbar
+.theme-dark .title_a7d72e, // Normal toolbar
+.theme-dark .container_e44302{ // Browse channels toolbar
     padding: 0 0 0 20px;
-    &.themed_b152d4{
+    &.themed_e44302{
         background-color: transparent;
     }
     // Channel & MOTD
     // Remove hash symbol
-    .children_cde9af{
+    .children_e44302{
         // Gradient at end of MOTD field
         &::after{
             display: none;
         }
-        .iconWrapper_de6cd1{
+        .iconWrapper_e44302{
             display: none;
         }
     }
     // Channel name
-    .title__84e16{
+    .title_e44302{
         @include TypeBodyStrong
     }
 
     // Remove divider
-    .divider_bdb894{
+    .divider_e44302{
         display: none;
     }
 
     // MOTD
-    .topic__16ae3{
+    .topic_bf3bbb{
         color: $TextFillColorPrimary;
         @include TypeBody;
     }
 
     // Add some margin to the caret when in fullscreen thread view
-    .caret__33d19{
+    .caret_e44302{
         margin-right: 8px;
     }
 }
 
 // Toolbar
-.theme-dark .toolbar__62fb5{
+.theme-dark .toolbar_e44302{
     // Using these selectors so there are fewer conflicts in the voice screen
-    div[role=button]:not(.iconLayout__9d9a4), // :not excludes the search/clear button in the search bar
+    div[role=button]:not(.iconLayout_effbe2), // :not excludes the search/clear button in the search bar
     button[type=button]{
         width: 60px;
         height: 32px;
@@ -59,12 +59,12 @@
         }
 
         // Selected
-        &.selected__1fc53{
+        &.selected_e44302{
             background-color: $AccentFillColorSecondary;
             &::before{
                 color: $TextOnAccentFillColorPrimary;
             }
-            .count-vTKEhF{
+            .count__03d4d{
                 color: $TextOnAccentFillColorPrimary !important; // Override inline
             }
         }
@@ -73,13 +73,13 @@
             color: $SystemFillColorCritical;
         }
     }
-    .count-vTKEhF{
+    .count__03d4d{
         position: absolute;
         top: 2px;
         left: 38px;
         @include TypeCaption;
     }
-    .iconBadge__20a6b{
+    .iconBadge_e44302{
         width: 16px;
         height: 3px;
         right: 22px;
@@ -91,8 +91,8 @@
 }
 
 // Icon replacements
-html[lang^="en-"].theme-dark .toolbar__62fb5{
-    .iconWrapper_de6cd1{
+html[lang^="en-"].theme-dark .toolbar_e44302{
+    .iconWrapper_e44302{
         &::before{
             @include FontIconFluent;
             width: 60px;
@@ -103,7 +103,7 @@ html[lang^="en-"].theme-dark .toolbar__62fb5{
             display: block;
         }
         // Remove default icon
-        .icon_ae0b42,
+        .icon_e44302,
         .controlIcon-35oS15{
             display: none;
         }

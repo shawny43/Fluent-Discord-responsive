@@ -1,21 +1,21 @@
 .theme-dark{
-    .header_b3a42d{
+    .header_b58b14{
         @include TypeSubtitle;
         text-align: left;
     }
 
-    .problemInfo__04a54{
-        .root_b4f834{
+    .problemInfo_b58b14{
+        .root_ee4ca6{
             background-color: $CardBackgroundFillColorDefault;
             border: 1px solid $CardStrokeColorDefault;
             border-radius: 4px;
         }
-        .option__571e3{
+        .option_ee4ca6{
             &:hover{
                 background-color: $CardBackgroundFillColorSecondary;
             }
         }
-        .text__595fb{
+        .text_ee4ca6{
             @include TypeBody;
         }
     }

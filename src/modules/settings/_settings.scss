@@ -1,24 +1,24 @@
-.theme-dark .layer_f7d46a{
-    .contentRegion__08eba{
+.theme-dark .layer_d4b6c5{
+    .contentRegion_c25c6d{
         background-color: $LayerFillColorDefault;
         border-top: 1px solid $CardStrokeColorDefault;
         border-left: 1px solid $CardStrokeColorDefault;
         border-radius: 7px 0 0 0;
     }
-    .contentColumnDefault__78de3{
+    .contentColumnDefault_c25c6d{
         padding: 32px;
     }
-    .contentRegionShownSidebar__9d1b9{
+    .contentRegionShownSidebar_c25c6d{
         // justify-content: center;
     }
-    .contentColumn__5f80b,
-    .customColumn-2n-oKU{
+    .contentColumn_c25c6d,
+    .customColumn_c25c6d{
         max-width: 1000px;
         padding: 44px 32px;
     }
 
     // Close button
-    .closeButton__8177f{
+    .closeButton_df5532{
         width: 32px;
         height: 32px;
         flex: 0 0 32px;
@@ -29,39 +29,39 @@
             fill: $TextFillColorPrimary;
         }
     }
-    .keybind_a619c1{
+    .keybind_df5532{
         @include TypeBody;
         color: $TextFillColorPrimary;
     }
 
     // Title
-    .sectionTitle__3e02b{
-        .title__1b7e8{
+    .sectionTitle_a6ae9b{
+        .title_c46f6a{
             margin-bottom: 32px;
             @include TypeTitle;
         }
     }
 
     // Setting container
-    .container__7ad1e{
+    .container_ed1d57{
         margin-bottom: 8px;
         padding: 18px 24px;
         background-color: $CardBackgroundFillColorDefault;
         border: 1px solid $CardStrokeColorDefault;
         border-radius: 4px;
 
-        .title__8b9e4{
+        .title_ed1d57{
             @include TypeBody;
         }
-        .note__24c83{
+        .note_ed1d57{
             margin-right: 64px;
         }
-        .description_b0e07c, .labelDescriptor-2top7R{
+        .description_b89ec7, .labelDescriptor_b89ec7{
             @include TypeCaption;
             color: $TextFillColorSecondary;
         }
 
-        .divider__14bb6{
+        .divider_b03b7f{
             display: none;
         }
     }
@@ -77,7 +77,7 @@
         opacity: 1;
     }
 }
-.contentColumn__5f80b > *{
+.contentColumn_c25c6d > *{
     animation: fluent-settings-pages-transition 250ms cubic-bezier(0, 0, 0, 1);
 }
 
@@ -91,6 +91,6 @@
         transform: translateY(0);
     }
 }
-.animating_b7d085{
+.animating_d4b6c5{
     animation: fluent-layer-transition 250ms cubic-bezier(0,0,0,1);
 }

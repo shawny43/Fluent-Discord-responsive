@@ -1,14 +1,14 @@
-.theme-dark .container_f8ef5d{
-    .scroller__9a4f3{
+.theme-dark .container_f2bfbb{
+    .scroller_f2bfbb{
         background-color: $CardBackgroundFillColorDefault;
     }
 
-    .reactionDefault_de3361{
+    .reactionDefault_f2bfbb{
         &:hover{
             background-color: $SubtleFillColorSecondary;
         }
     }
-    .reactionSelected__16345{
+    .reactionSelected_f2bfbb{
         position: relative;
         background-color: $SubtleFillColorSecondary;
         &::before{
@@ -23,15 +23,15 @@
         }
     }
 
-    .reactors__0f305{
+    .reactors_f2bfbb{
         background-color: transparent;
     }
 
-    .name__7b681{
+    .name_f2bfbb{
         @include TypeBody;
         color: $TextFillColorPrimary;
     }
-    .username__1b2de{
+    .username_f2bfbb{
         opacity: 1;
         @include TypeBody;
         color: $TextFillColorSecondary;

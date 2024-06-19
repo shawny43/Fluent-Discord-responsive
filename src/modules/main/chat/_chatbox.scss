@@ -1,5 +1,5 @@
-.theme-dark .form_d8a4a1, // Main chatbox
-.theme-dark .submitContainer-1DHMA0{ // Thread start
+.theme-dark .form_a7d72e, // Main chatbox
+.theme-dark .submitContainer_fb4810{ // Thread start
     margin-top: 0;
     padding-right: 17px;
     padding-left: 15px;
@@ -9,8 +9,8 @@
         display: none;
     }
 
-    .channelTextArea_c2094b,
-    .channelTextArea-1VQBuV{
+    .channelTextArea_a7d72e,
+    .channelTextArea_d0696b{
         margin-bottom: 8px;
         background-color: $ControlFillColorDefault;
         border: 1px solid $ControlStrokeColorDefault;
@@ -25,33 +25,33 @@
             border-bottom-color: $AccentBase;
         }
     }
-    .scrollableContainer_ff917f{
+    .scrollableContainer_d0696b{
         background-color: transparent;
         border-radius: 4px;
         overflow-y: auto;
     }
 
-    .sansAttachButton__5f863{
+    .sansAttachButton_d0696b{
         padding-left: 0;
     }
 
     // User's input text
-    .textArea_a86690{
+    .textArea_d0696b{
         height: 45px;
         min-height: 45px;
     }
-    .slateTextArea_b19976{
+    .slateTextArea_e52116{
         right: 8px;
         left: 8px;
         color: $TextFillColorPrimary;
-        &.placeholder_dec8c7 {
+        &.placeholder_a552a6 {
             color: $TextFillColorSecondary;
         }
     }
 
 
     // Upload button
-    .attachButton__5f6dc{
+    .attachButton_d0696b{
         width: 32px;
         height: 32px;
         margin: 6px 0 0 6px;
@@ -71,18 +71,18 @@
                 color: $TextFillColorPrimary;
             }
         }
-        .contents__322f4{
+        .contents_dd4f85{
             display: none;
         }
     }
     // Upload button when command is entered
-    .hasConnectedBar__7d21e .attachButton__5f6dc{
+    .hasConnectedBar_d0696b .attachButton_d0696b{
         // Hide our upload icon
         &::before{
             content: "";
         }
         // Position the slash icon
-        .icon__58cfe{
+        .icon_da5ed7{
             padding: 4px;
         }
         // Remove hover effects
@@ -95,7 +95,7 @@
     // Bot command bot icon
     // NOTE - 2022-12-18: This can be tested using the `/embed create` command from Carl-bot
     // NOTE - 2022-12-18: `:not(button)` is required because the normal attach button uses the same class
-    .attachButton-1ijpt9:not(button){
+    .attachButton_d0696b:not(button){
         margin-left: 0;
     }
 
@@ -107,7 +107,7 @@
     .expression-picker-chat-input-button{
         margin: 6px 4px 0 0;
         align-items: flex-start;
-        .button__581d0{
+        .button_dd4f85{
             height: 32px;
             width: 32px;
             border: 1px solid transparent;
@@ -117,8 +117,8 @@
                 font-size: 18px;
             }
             &:hover,
-            &.active-z80xEj,
-            &.emojiButtonHovered__7519c{
+            &.active_cecf00,
+            &.emojiButtonHovered_af14ca{
                 background-color: $ControlFillColorDisabled;
                 border-color: $ControlStrokeColorDefault;
                 &::before{
@@ -128,48 +128,48 @@
         }
 
         // Always hide the emoji button icon since it can be directly selected
-        .emojiButton__176c8{
-            .contents__322f4{
+        .emojiButton_af14ca{
+            .contents_dd4f85{
                 display: none;
             }
         }
 
         // Replace sticker icon
-        .contents__322f4.stickerButton_c02bc0{
+        .contents_dd4f85.stickerButton_d0696b{
             &::before{
                 content: "\F4AA"; // Sticker2
                 @include FontIconFluent;
                 font-size: 18px;
             }
-            .lottieIcon_c7076c{
+            .lottieIcon_f73ef7{
                 display: none !important; // Override in-line
             }
         }
 
         // Replace GIF icon
-        .button__581d0[aria-label*="GIF"]{
-            .contents__322f4{
+        .button_dd4f85[aria-label*="GIF"]{
+            .contents_dd4f85{
                 &::before{
                     content: "\F4A9"; // GIF
                     @include FontIconFluent;
                     font-size: 18px;
                 }
-                .lottieIcon_c7076c{
+                .lottieIcon_f73ef7{
                     display: none !important; // Override in-line
                 }
             }
         }
 
     }
-    .buttons__7ecff{
+    .buttons_d0696b{
         height: unset;
         margin-right: 0;
         // Remove gift
-        & > .button__581d0{
+        & > .button_dd4f85{
             display: none;
         }
         // Set a static emoji icon
-        .emojiButton__176c8{
+        .emojiButton_af14ca{
             margin: 0 4px 0 0;
             &::before{
                 content: "\E76E"; //Emoji2
@@ -180,13 +180,13 @@
         }
 
         // Send button
-        .separator__666aa{
+        .separator_a06035{
             margin-top: 6px;
             margin-left: -4px;
             &::before{
                 display: none;
             }
-            .button__581d0{
+            .button_dd4f85{
                 width: 32px;
                 height: 32px;
                 margin-right: 4px;
@@ -202,7 +202,7 @@
                 &:hover:not(:disabled):before{
                     color: $TextFillColorPrimary;
                 }
-                .contents__322f4{
+                .contents_dd4f85{
                     display: none;
                 }
             }
@@ -210,7 +210,7 @@
     }
 
     // Is Typing
-    .typing__6fd1d{
+    .typing_d7ebeb{
         height: 20px;
         top: -20px;
         right: 16px;
@@ -234,27 +234,27 @@
             }
         }
         // Slowmode font-weight
-        .cooldownWrapper__193b2{
+        .cooldownWrapper_d7ebeb{
             font-weight: normal;
         }
         // Fix position of countdown timer
-        .text_eb454c:not(:empty) + .cooldownWrapper__193b2{
+        .text_d7ebeb:not(:empty) + .cooldownWrapper_d7ebeb{
             margin-bottom: 14px;
         }
     }
 
     // Various chatbox states
     // Announce channel follow
-    .wrapper__57349{
+    .wrapper_faf5ab{
         margin-bottom: 16px;
         background-color: $ControlFillColorDisabled;
         border: 1px solid $ControlStrokeColorDefault;
         // Remove image
-        .content__98536{
+        .content_faf5ab{
             img{
                 display: none;
             }
-            .title__3b5e7{
+            .title_faf5ab{
                 color: $TextFillColorDisabled !important; // Override inline
                 @include TypeBody;
             }
@@ -262,21 +262,21 @@
     }
 
     // No permission
-    .textAreaDisabled__38376{
-        .placeholder_dec8c7{
+    .textAreaDisabled_d0696b{
+        .placeholder_a552a6{
             color: $TextFillColorSecondary;
             @include TypeBody;
         }
     }
 
     // Showing command help
-    .attachedBars_c1606a{
+    .attachedBars_d0696b{
         background-color: $CardStrokeColorDefaultSolid;
         border-radius: 4px 4px 0 0;
-        .name__12c49{
+        .name_f60904{
             @include TypeBody;
         }
-        .option-Tt7anD{
+        .option_bea3ee{
             margin-left: 0;
             @include TypeBody;
             &::before{
@@ -286,25 +286,25 @@
                 content: "}";
             }
 
-            &.active-WHsd77{
+            &.active_bea3ee{
                 background-color: transparent !important;
             }
         }
     }
 
     // Replying to message
-    .clipContainer_ab9cf6{
+    .clipContainer_b11c5e{
         margin-top: 0;
     }
-    .replyBar_ed6afc{
+    .replyBar_b11c5e{
         background-color: transparent;
-        .replyLabel__84289{
+        .replyLabel_b11c5e{
             color: $TextFillColorPrimary;
         }
     }
 
     // Hide 'game support game invites' message
-    .activityInviteEducation-3dYEeQ, // Main chatbox
+    .activityInviteEducation_d7ebeb, // Main chatbox
     .applicationCommandEducation-1stoia{ // Thread
         display: none;
     }

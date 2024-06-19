@@ -6,15 +6,15 @@
     }
 
     // Body
-    .root_a28985{
+    .root_f9a4c9{
         background-color: $SolidBackgroundFillColorBase;
         border: 1px solid $SurfaceStrokeColorDefault;
         border-radius: 8px;
     }
 
     // Headers
-    .header__5e5a6, // eg. notification settings
-    // .header-1LEkUo, // eg. change password
+    .header_f9a4c9, // eg. notification settings
+    // .header_e7b58e, // eg. change password
     // .header-1kWa4s, // eg. change username
     .header-1R3myj{ // eg. edit email
         padding: 24px;
@@ -22,29 +22,29 @@
         border-radius: 8px 8px 0 0;
         align-items: unset;
         .heading-lg-semibold__58a54, // eg. notification settings
-        .title__4911f, // eg. change password
-        .title__16cde, // eg. change username
-        .title__432ee{ // eg. edit email
+        .title_e7b58e, // eg. change password
+        .title_aefbba, // eg. change username
+        .title_a62824{ // eg. edit email
             @include TypeSubtitle;
             text-align: left;
         }
         .text-md-normal__6e567, // eg. notification settings
-        .subtitle_d70808, // eg. change password
-        .subtitle__82093, // eg. change username
-        .subtitle__48cca{ // eg. edit email
+        .subtitle_e7b58e, // eg. change password
+        .subtitle_aefbba, // eg. change username
+        .subtitle_a62824{ // eg. edit email
             @include TypeBody;
             color: $TextFillColorPrimary;
             text-align: left;
         }
 
         // Remove divider line in notification settings
-        &.separator_aab1f8{
+        &.separator_f9a4c9{
             box-shadow: none;
         }
     }
 
     // Content
-    .content_b28aab{
+    .content_f9a4c9{
         padding-right: 24px !important;
         padding-left: 24px;
         background-color: $LayerFillColorAlt;
@@ -57,17 +57,17 @@
     }
 
     // Footer
-    .footer_e0b400{
+    .footer_f9a4c9{
         padding: 24px;
         background-color: transparent;
 
         // Remove divider line in notification settings
-        &.footerSeparator__2af8d{
+        &.footerSeparator_f9a4c9{
             box-shadow: none;
         }
 
         // Add gap between buttons
-        .button__581d0{
+        .button_dd4f85{
             margin-left: 8px;
         }
     }
@@ -77,15 +77,15 @@
     // Special cases
     // Remove images from headers
     // screenshare
-    .art_d9e8a6{
+    .art_e1cc86{
         display: none;
     }
     // Verify email
-    .headerImage__8f629{
+    .headerImage_a62824{
         display: none;
     }
     // NOTE: 2023-06-13 - Style fix for the verify email modal which uses the wrong class for the actions div
-    .headerImage__8f629 ~ div .content_b28aab{
+    .headerImage_a62824 ~ div .content_f9a4c9{
         background-color: transparent;
     }
     .buttons_ce7406{
@@ -100,23 +100,23 @@
         }
     }
     // Enter phone number
-    .phoneField__47dd1{
-        .countryButton_e94731{
+    .phoneField_d4eb58{
+        .countryButton_d4eb58{
             min-width: 64px;
         }
     }
 
     // Upload sound
-    .headerContainer_dfe111{
+    .headerContainer_a54397{
         margin-bottom: 0;
-        .header_e8cb74{
+        .header_a54397{
             @include TypeSubtitle;
             text-align: left;
         }
     }
 
     // Event info modal
-    .card__7865b{
+    .card_cc2c09{
         background-color: $LayerFillColorDefault;
         border: 1px solid $CardStrokeColorDefault;
         border-radius: 8px;

@@ -1,39 +1,39 @@
-.theme-dark .contentColumn__5f80b{
+.theme-dark .contentColumn_c25c6d{
     // Roles
     // Fix header
     &#roles-tab{
-        .title__1b7e8{
+        .title_c46f6a{
             @include TypeTitle;
         }
 
 
         // Advanced permissions
-        .contentContainer__50662{
+        .contentContainer_e8251c{
             left: 256px;
         }
-        .contentWidth_f1e6d4{
+        .contentWidth_bd05f1{
             max-width: calc(1000px - 232px);
         }
 
         // Left
-        .container__3d5fd{
-            .titleContainer_d09261{
+        .container_e87574{
+            .titleContainer_e87574{
                 padding-top: 40px;
                 background-color: transparent;
-                .titleText__971fb{
+                .titleText_e87574{
                     @include TypeSubtitle;
                     text-transform: none;
                 }
             }
-            .list__41249{
+            .list_e87574{
                 padding: 0 16px 96px 16px;
             }
         }
         // Right
-        .header_ee0bd9{
+        .header_bd05f1{
             padding-top: 40px;
             background-color: $CardStrokeColorDefaultSolid;
-            .titleText__1fd97{
+            .titleText_c69589{
                 @include TypeSubtitle;
                 text-transform: none;
             }
@@ -44,7 +44,7 @@
     // Server template
     // Fix header
     &#guild_templates-tab{
-        .title__1b7e8{
+        .title_c46f6a{
             @include TypeTitle;
         }
     }
@@ -52,66 +52,66 @@
     // Custom invite link
     // Fix header
     &#vanity_url-tab{
-        .title__1b7e8{
+        .title_c46f6a{
             @include TypeTitle;
         }
     }
 
     // Integrations
     &#integrations-tab{
-        .title__1b7e8{
+        .title_c46f6a{
             @include TypeTitle;
         }
     }
 
     // Automod
     // Fix card background
-    .editCard__7d03f{
+    .editCard_cd99d3{
         background-color: $CardBackgroundFillColorDefault;
         border: 1px solid $CardStrokeColorDefault;
 
-        .ruleIconContainer_c3faae{
+        .ruleIconContainer_ea28e2{
             background-color: transparent;
         }
         // Pills
-        .actionContainer__4263f{
+        .actionContainer_cec7a5{
             padding: 4px 8px;
             background-color: $SystemFillColorSolidNeutral;
-            .actionIcon__2888e{
+            .actionIcon_cec7a5{
                 color: $TextFillColorPrimary;
             }
-            .actionTextHeader__50bb7{
+            .actionTextHeader_cec7a5{
                 color: $TextFillColorPrimary !important;
                 font-weight: normal;
             }
         }
 
 
-        .mentionLimitContainer_bb7659,
-        .actionContainer_e638f2{
+        .mentionLimitContainer_fa2661,
+        .actionContainer_b6e944{
             background-color: $CardBackgroundFillColorDefault;
         }
-        .keywordListContainer__0f5a8{
+        .keywordListContainer_f9f552{
             margin-bottom: 0;
             background-color: transparent;
         }
-        .collapseable_a59844{
+        .collapseable_a3cc4a{
             background-color: $CardBackgroundFillColorDefault;
             border: 1px solid $CardStrokeColorDefault;
         }
 
         // Select/drop down
-        .container_ec5ce2{
+        .container_effbe2{
             background-color: $ControlFillColorDefault;
         }
-        .resultsList__44239{
+        .resultsList_debb5a{
             background: $SolidbackgroundFillColorQuarternary;
             border: 1px solid $SurfaceStrokeColorFlyout;
             border-radius: 4px;
         }
 
         // Textarea
-        .keywordTextArea_d1b46b{
+        .keywordTextArea_a4df17{
             background-color: $ControlFillColorDefault;
             border: 1px solid;
             border-bottom-width: 2px;
@@ -135,7 +135,7 @@
     // Server boot status
     // Fix title
     &#guild_premium-tab{
-        .title__1b7e8 {
+        .title_c46f6a {
             @include TypeTitle;
         }
     }
@@ -150,16 +150,16 @@
     // Channel Settings - Overview
     // Fixes no spacing between channel name text box and Bitrate sections
     .channel-settings-overview{
-        .marginBottom40_f4d1a4{
+        .marginBottom40_f7730b{
             margin-bottom: 24px;
         }
     }
 
     // Always display the emoji name textbox
-    .emojiInput__3270d{
+    .emojiInput_dc1809{
         opacity: 1;
     }
-    .emojiAliasPlaceholder_ecea45{
+    .emojiAliasPlaceholder_dc1809{
         display: none;
     }
 }

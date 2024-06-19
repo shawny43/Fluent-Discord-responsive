@@ -1,29 +1,29 @@
-.theme-dark .container_e1958d{
+.theme-dark .container_adcaac{
     background-color: transparent;
     border-top: 0;
     border-bottom: 0;
     padding-bottom: 0;
 
     // Connection status/disconnect
-    .connection-3wznVd{
+    .connection_adcaac{
         height: 32px;
     }
-    .rtcConnectionStatus-c5A6Av{
+    .rtcConnectionStatus_c0cb95{
         padding-bottom: 0;
         @include TypeBody;
-        .button__581d0{
+        .button_dd4f85{
             line-height: 16px;
         }
     }
-    .subtext-2HDqJ7{
+    .subtext_e06aad{
         @include TypeCaption;
     }
-    .voiceUsers__12c6d{
+    .voiceUsers_fb2f1c{
         padding-top: 4px;
     }
 
     // Video/screen share buttons
-    .actionButtons__85e3c{
+    .actionButtons_adcaac{
         grid-gap: 4px;
         // !importants to make these appear as 'default' button instead of accent
         button{
@@ -39,7 +39,7 @@
                 background-color: $ControlFillColorTertiary !important;
             }
 
-            .contents__322f4{
+            .contents_dd4f85{
                 // Display: flex required to fix alignment of soundboard icon when using non-English - see #249
                 display: flex;
                 font-size: 0;
@@ -49,30 +49,30 @@
             }
         }
         // Hide buttons when you don't have permission. This also hides the soundboard when you are muted
-        .disabledButtonWrapper_b04230{
+        .disabledButtonWrapper_dd4f85{
             display: none;
         }
     }
 }
 
 // Streaming game/app
-.theme-dark .activityPanel_b73e7a{
+.theme-dark .activityPanel_a4d4d9{
     background-color: transparent;
     padding-bottom: 0;
     border-top: 0;
     border-bottom: 0;
-    .title-338goq{
+    .title_d1da5f{
         @include TypeBody;
     }
 }
 
 // Icons
-html[lang^="en-"].theme-dark .panels__58331 .button__581d0:not(.rtcConnectionStatusLabel_c2abfa) {
+html[lang^="en-"].theme-dark .panels_a4d4d9 .button_dd4f85:not(.rtcConnectionStatusLabel_c0cb95) {
     &::before{
         @include FontIconFluent;
         font-size: 16px;
     }
-    .contents__322f4{
+    .contents_dd4f85{
         display: none;
     }
 }

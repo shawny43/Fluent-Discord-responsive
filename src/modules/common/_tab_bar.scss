@@ -1,21 +1,21 @@
 .theme-dark{
-    .tabBar_d4764b,         // A: Guild > Channels & Roles
-    .tabBar__35f81,         // B: User profile modal
-    .tabBar__22a9a,         // C: User Settings > Profiles
-    .settingsTabBar_feac86, // D: User Settings > Family Centre
-    .tabBar_a685ae,         // E: Event information modal
-    .top_fae1fa{            // F: User Settings > Privacy & Safety
+    .tabBar_f1fd9c,         // A: Guild > Channels & Roles
+    .tabBar_b9fccc,         // B: User profile modal
+    .tabBar_bff66b,         // C: User Settings > Profiles
+    .settingsTabBar_d576e9, // D: User Settings > Family Centre
+    .tabBar_a31cc1,         // E: Event information modal
+    .top_a0{            // F: User Settings > Privacy & Safety
         border-bottom: 0;
 
         // Items
-        .item__48dda{
+        .item_a0{
             @include TypeBody;
             color: $TextFillColorPrimary;
             border: 0;
             &:hover{
                 color: $TextFillColorSecondary;
             }
-            &.selected_a523ff{
+            &.selected_a0{
                 border: 0;
                 &::before{
                     content: "";

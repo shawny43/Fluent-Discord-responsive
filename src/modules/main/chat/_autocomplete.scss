@@ -1,23 +1,23 @@
-.theme-dark .channelTextArea_c2094b{
+.theme-dark .channelTextArea_a7d72e{
     &:focus-within{
-        .autocomplete__743a5{
+        .autocomplete_f23da8{
             border-color: $ControlStrokeColorDefault;
         }
     }
 }
 
-.theme-dark .autocomplete__743a5{
+.theme-dark .autocomplete_f23da8{
     bottom: calc(100% + 4px);
     box-shadow: none;
     background-color: $CardStrokeColorDefaultSolid;
     border: 1px solid $ControlStrokeColorDefault;
     border-radius: 4px;
 
-    .rail_ad1aea{
+    .rail_fe2299{
         background-color: $CardStrokeColorDefault;
     }
 
-    .section__4da0b{
+    .section_efd8e6{
         > div[role=button]{
             width: 32px;
             height: 32px;
@@ -35,16 +35,16 @@
                 height: 24px;
                 margin: 4px;
             }
-            .wrapper_eb6fe5{
+            .wrapper_a69fe5{
                 padding: 0 !important; // Override inline
             }
         }
     }
 
     // Commands header
-    .categoryHeader__70c8e{
+    .categoryHeader_fe2299{
         background-color: $CardStrokeColorDefaultSolid;
-        .headerLabel_febbb2{
+        .headerLabel_e06857{
             @include TypeBody;
             color: $TextFillColorPrimary;
             text-transform: none;
@@ -52,7 +52,7 @@
     }
 
     // Commands matching: header
-    .contentTitle_b6c2bb{
+    .contentTitle_f23da8{
         @include TypeBody;
         color: $TextFillColorPrimary;
         text-transform: none;
@@ -67,21 +67,21 @@
     }
 
     // Command
-    .base-2v-uc0{
+    .base_f23da8{
         &.selected-3H3-RC{
             background-color: $SubtleFillColorSecondary;
             box-shadow: inset 0 0 0 1px $SubtleFillColorSecondary; // Using box-shadow because borders cause the div to grow;
         }
-        .title-158kHv{
+        .title_e18e73{
             @include FontMonospace;
             @include TypeBody;
         }
-        .usageWrapper-2eaALZ{
-            .optionalCount-1BzEgg{
+        .usageWrapper_e18e73{
+            .optionalCount_e18e73{
                 @include TypeBody;
                 color: $TextFillColorTertiary;
             }
-            .option-c0n68t{
+            .option_e18e73{
                 padding: 0;
                 margin-left: 1ch;
                 background-color: transparent;
@@ -97,7 +97,7 @@
         }
 
         // Command description
-        .description-1T7FK8{
+        .description_e18e73{
             @include TypeCaption;
             color: $TextFillColorTertiary;
         }

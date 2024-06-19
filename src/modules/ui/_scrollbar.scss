@@ -1,6 +1,6 @@
 // Channels, members, settings nav
-.theme-dark .thin__62e51, // Settings nav
-.theme-dark .thin_b1c063{ // Channels
+.theme-dark .thin_c49869, // Settings nav
+.theme-dark .thin_eed6a8{ // Channels
     &::-webkit-scrollbar{
         width: 6px;
     }
@@ -10,7 +10,7 @@
 }
 
 // Chat
-.theme-dark .auto__020ac{
+.theme-dark .auto_c49869{
     &::-webkit-scrollbar{
         width: 12px;
     }
@@ -23,7 +23,7 @@
 }
 
 // Giphy/Tenor search popout
-.theme-dark .scrollbarGhostHairline__00100{
+.theme-dark .scrollbarGhostHairline_c858ce{
     &::-webkit-scrollbar-thumb{
         background-color: $ControlStrongFillColorDefault;
     }

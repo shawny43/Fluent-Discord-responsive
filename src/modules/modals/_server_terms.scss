@@ -1,44 +1,44 @@
 .theme-dark{
-    .guildSidebar__74787{
+    .guildSidebar_a74b6f{
         background: $SolidBackgroundFillColorBase;
-        .guildDescription_a1093f{
+        .guildDescription_a74b6f{
             color: $TextFillColorPrimary;
         }
     }
-    .modal_b38209{
+    .modal_a74b6f{
         background-color: $CardBackgroundFillColorDefault;
         border-radius: 0;
         // Remove waving hand GIF
-        .animationAndSparklesContainer_d2a9ed{
+        .animationAndSparklesContainer_a74b6f{
             display: none;
         }
         // Headers
-        .header_c78725{
+        .header_a74b6f{
             @include TypeSubtitle;
             text-align: left;
         }
-        .subheader__4e007{
+        .subheader_a74b6f{
             @include TypeBody;
             color: $TextFillColorPrimary;
             text-align: left;
         }
-        hr.divider_e4bcab{
+        hr.divider_a74b6f{
             display: none;
         }
 
-        .termsFieldBody__30daf{
+        .termsFieldBody_bd5b94{
             background-color: $CardBackgroundFillColorDefault;
             border: 1px solid $CardStrokeColorDefault;
             border-radius: 4px;
         }
-        .termsRowContent__605ae{
+        .termsRowContent_bd5b94{
             @include TypeBody;
             color: $TextFillColorPrimary;
         }
 
         // Accept checkbox
-        .checkboxWrapper_a2bcc8{
-            .input__52838{
+        .checkboxWrapper_f6cde8{
+            .input_f6cde8{
                 // Yes Discord, it was completely necessary to in-line the dimensions...
                 width: 18px !important; // Override inline
                 height: 18px !important; // Override inline

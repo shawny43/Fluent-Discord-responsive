@@ -1,11 +1,11 @@
 // DEBUG: 2022-06-04 - Useful debug snippets to help with theming
 // Force display voice screen elements (toolbars)
-// .root__3eef0.idle_d696d0 *{
+// .root_dd069c.idle_dd069c *{
 //     opacity: 1 !important;
 //     transform: unset !important;
 // }
 // Draw debug borders on top toolbar buttons
-// .toolbar__62fb5{
+// .toolbar_e44302{
 //     border: 1px solid red;
 //     div[role=button],
 //     button[type=button]{
@@ -13,48 +13,48 @@
 //     }
 // }
 
-.theme-dark .wrapper__6bf2d{
+.theme-dark .wrapper_d880dc{
     background-color: #000;
     border-radius: 8px 0 0 0;
 
     // Attach borders in call
-    ~ .content-18rAwf{
+    ~ .content_a7d72e{
         border-radius: 0;
     }
 
     // Round top-left corner
-    .callContainer__1477d{
+    .callContainer_d880dc{
         border-radius: 8px 0 0 0;
     }
 
     // Toolbars
-    .videoControls_af6621{
+    .videoControls_dd069c{
         // Top
-        .topControls_e834ab{
-            .upperContainer__57565{
-                .children_cde9af{
+        .topControls_dd069c{
+            .upperContainer_e44302{
+                .children_e44302{
                     // Remove voice icon
-                    .iconWrapper_de6cd1{
+                    .iconWrapper_e44302{
                         display: none;
                     }
-                    .title__84e16{
+                    .title_e44302{
                         padding-left: 12px;
                         @include TypeBodyStrong
                     }
-                    .playingText__44fce{
+                    .playingText_c7b3af{
                         color: $TextFillColorSecondary;
                         @include TypeBody;
                     }
                 }
 
                 // Quality
-                .liveQualityIndicator__5a1de{
+                .liveQualityIndicator_c5881c{
                     height: 20px;
                     margin-right: 0;
                     padding: 0 12px;
                     background-color: $SystemFillColorSolidNeutralBackground !important; // Override inline
                     border-radius: 10px 0 0 10px;
-                    .qualityIndicator__36cd4{
+                    .qualityIndicator_c5881c{
                         height: 20px;
                         @include TypeBody;
                     }
@@ -66,7 +66,7 @@
                         display: none;
                     }
                 }
-                .live_b195a5{
+                .live_e17fae{
                     height: 20px;
                     padding: 0 12px 0 8px;
                     background-color: $SystemFillColorCritical !important; // Override inline
@@ -79,13 +79,13 @@
 
 
                 // Go to "REF: Chat button" for chat button CSS
-                .divider_bdb894{
+                .divider_e44302{
                     display: none;
                 }
             }
         }
         // REF: Chat button
-        ~ div > .button__581d0{
+        ~ div > .button_dd4f85{
             width: 64px;
             height: 36px;
             top: 6px;
@@ -106,11 +106,11 @@
         }
 
         // Bottom
-        .bottomControls__72d8d{
-            .controlButton__863c7{
+        .bottomControls_dd069c{
+            .controlButton_b6e2f9{
                 height: 32px;
                 margin: 0 4px;
-                &.button__581d0{
+                &.button_dd4f85{
                     min-width: 64px;
                     height: 32px;
                     padding: 8px 16px;
@@ -126,7 +126,7 @@
                     }
                 }
 
-                .contents__322f4{
+                .contents_dd4f85{
                     // Non-EN style fixes
                     svg{
                         width: 16px !important; // Icons are otherwise too large
@@ -134,17 +134,17 @@
                     }
                 }
 
-                &.contextMenuContainer__7fb37{
+                &.contextMenuContainer_ef18ee{
                     margin: 0 4px;
                     display: flex;
-                    .svg_bb7847 {
+                    .svg_d48241 {
                         width: 72px !important; // Force width
                         transform: scale(1.75, 1.75) translate(0, 7px) !important; // This is a hack to get around a viewBox property which causes the button to scale
                     }
                     foreignObject{
                         mask: none;
                     }
-                    .button__581d0{
+                    .button_dd4f85{
                         min-width: 64px;
                         height: 32px;
                         padding: 8px 16px;
@@ -160,7 +160,7 @@
                         }
                     }
                 }
-                .contextMenuNub_bea150{
+                .contextMenuNub_ef18ee{
                     max-height: 32px;
                     position: relative;
                     padding: 7px 8px;
@@ -172,7 +172,7 @@
             }
 
             // Popout/fullscreen
-            .rightTrayIcon__38c41{
+            .rightTrayIcon_d880dc{
                 width: 32px;
                 height: 32px;
                 margin-left: 8px;
@@ -193,35 +193,35 @@
 
             // Special case for volume control
             // Make the volume icon centred in button
-            .rightTrayIcon__38c41 .volumeButton__47cae{
+            .rightTrayIcon_d880dc .volumeButton_c30bea{
                 width: 34px;
                 height: 34px;
             }
             // Volume control slider
             // This is copied from _mediaplayer
-            .mediaBarInteractionVolume_cc44ff{
+            .mediaBarInteractionVolume_f7877e{
                 height: 32px;
                 padding: 0 16px;
                 background-color: $SolidbackgroundFillColorQuarternary;
                 border: 1px solid $SurfaceStrokeColorFlyout;
                 border-radius: 4px;
             }
-            .mediaBarWrapper_e90a7a{
+            .mediaBarWrapper_f7877e{
                 height: 4px;
                 background-color: $ControlStrongFillColorDefault;
                 border-radius: 2px;
             }
-            .mediaBarProgress_a3b7f1{
+            .mediaBarProgress_f7877e{
                 background-color: $AccentLight1;
                 border-radius: 2px;
             }
-            .mediaBarGrabber__1d527{
+            .mediaBarGrabber_f7877e{
                 background-color: $AccentLight1;
                 border: 4px solid #454545;
                 border-radius: 50%;
                 top: -2px;
             }
-            .fakeEdges_bbed67{
+            .fakeEdges_f7877e{
                 &::before,
                 &::after{
                     display: none;
@@ -231,20 +231,20 @@
     }
 
     // User tiles
-    .tile_f5f57f{
+    .tile_ba4b17{
         background-color: $SubtleFillColorTertiary;
         border: 1px solid transparent;
         border-radius: 4px;
         // Only apply border colour to users
-        &.tile_f5f57f:hover{
+        &.tile_ba4b17:hover{
             border-color: $ControlStrokeColorDefault;
         }
-        .overlayTitle_de9b41{
+        .overlayTitle_ba4b17{
             background-color: $ControlOnImageFillColorDefault;
             border-radius: 4px;
         }
         // Status button
-        .status__42e87{
+        .status_ba4b17{
             background-color: $ControlOnImageFillColorDefault;
             border-radius: 4px;
             &:hover{
@@ -255,7 +255,7 @@
             }
         }
     }
-    .participantsButton-1WBdFP{
+    .participantsButton_b83b18{
         background-color: $ControlOnImageFillColorDefault;
         border: 1px solid $ControlStrokeColorDefault;
         &:hover{
@@ -269,8 +269,8 @@
 
 // Icon replacements
 // Top toolbar (excludes Inbox button)
-html[lang^="en-"].theme-dark .toolbar__62fb5{
-    .button__581d0{
+html[lang^="en-"].theme-dark .toolbar_e44302{
+    .button_dd4f85{
         &::before{
             @include FontIconFluent;
             width: 62px;
@@ -288,7 +288,7 @@ html[lang^="en-"].theme-dark .toolbar__62fb5{
 }
 // Bottom toolbar (mic/speaker mute, leave, activity buttons)
 // NOTE - 2023-03-07: Discord removed aria-label from activity and react buttons, so only remove default icons from buttons WITH an aria-label set
-html[lang^="en-"].theme-dark .wrapper__4d4fe .button__581d0[aria-label]{
+html[lang^="en-"].theme-dark .wrapper_b6e2f9 .button_dd4f85[aria-label]{
     &::before{
         @include FontIconFluent;
         width: 62px;

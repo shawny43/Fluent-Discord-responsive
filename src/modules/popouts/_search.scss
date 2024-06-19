@@ -1,16 +1,16 @@
-.theme-dark .container__84c26{
+.theme-dark .container_eedf95{
     background: $MicaBackgroundFillColorBase;
     backdrop-filter: blur(16px);
     border: 1px solid $SurfaceStrokeColorDefault;
     border-radius: 8px;
 
-    .header__00739{
+    .header_b0286e{
         @include TypeBodyStrong;
         color: $TextFillColorPrimary;
         text-transform: none;
     }
 
-    .option__91497{
+    .option_b0286e{
         margin: 1px 10px;
         height: 32px;
         border: 1px solid transparent;
@@ -23,36 +23,36 @@
             display: none;
         }
 
-        .filter__851fb,
-        .answer__9ff92,
-        .displayedNick_ee206c,
-        .displayUsername__41697,
-        .nonText_fbd88d,
+        .filter_b0286e,
+        .answer_b0286e,
+        .displayedNick_b0286e,
+        .displayUsername_b0286e,
+        .nonText_b0286e,
         strong{
             @include TypeBody;
         }
 
-        .filter__851fb,
-        .displayedNick-1atSpT,
+        .filter_b0286e,
+        .displayedNick_b0286e,
         strong{
             color: $TextFillColorPrimary;
             @include TypeBody;
         }
-        .answer__9ff92,
-        .displayUsername-UTerwm{
+        .answer_b0286e,
+        .displayUsername_b0286e{
             color: $TextFillColorSecondary;
             @include TypeBody;
         }
     }
-    .resultsGroup-cfY57t .resultsGroup-cfY57t,
-    .resultsGroup-cfY57t .searchLearnMore-1gNL3A{
+    .resultsGroup_b0286e .resultsGroup_b0286e,
+    .resultsGroup_b0286e .searchLearnMore_b0286e{
         top: 16px;
     }
 
     // "Search for..." header
-    .queryContainer_c1cb2f{
+    .queryContainer_eedf95{
         background-color: $CardStrokeColorDefault;
-        queryText__92bb8{
+        queryText_eedf95{
             @include TypeBody;
             color: $TextFillColorPrimary;
             text-transform: none;

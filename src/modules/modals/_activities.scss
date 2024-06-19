@@ -1,16 +1,16 @@
-.theme-dark .root__9b46d{
+.theme-dark .root_cd3d24{
     margin-top: 0;
     background-color: transparent;
 
-    .shelfTopBackground__769cf{
+    .shelfTopBackground_cd3d24{
         display: none;
     }
 
     // Header
-    .headerTextContainer__03417{
+    .headerTextContainer_cd3d24{
         align-items: unset;
     }
-    .activityShelfTitle_a3dd51{
+    .activityShelfTitle_cd3d24{
         justify-content: unset;
         .heading-xl-extrabold__8ed5c{
             @include TypeSubtitle;
@@ -21,20 +21,20 @@
     }
 
     // Content
-    .scrollTierBackground__89f3e{
+    .scrollTierBackground_f09e45{
         background-color: $LayerFillColorAlt;
     }
 
-    .activityItem__2bb92{
+    .activityItem_d46b95{
         background-color: $CardBackgroundFillColorDefault;
     }
-    .activityTitleText__46dea{
+    .activityTitleText_d46b95{
         @include TypeBodyStrong;
     }
-    .activitySubtitleText__221fc{
+    .activitySubtitleText_d46b95{
         @include TypeCaption;
     }
-    .activityTag__1f89a{
+    .activityTag_d46b95{
         padding: 2px 8px;
         background-color: $SystemFillColorSolidNeutralBackground;
         @include TypeCaption;

@@ -1,23 +1,23 @@
 // Remove background from RTC/account
-.theme-dark .panels__58331{
+.theme-dark .panels_a4d4d9{
     background-color: transparent;
 
     // Remove 1px margin from bottom of panel
-    .container_debb33{
+    .container_b2ca13{
         background-color: transparent;
         height: 48px;
         margin-bottom: 0;
     }
 
     // Remove margin on avatar/username wrapper
-    .avatarWrapper__500a6{
+    .avatarWrapper_b2ca13{
         margin-right: 0;
         &:hover{
             background-color: transparent;
         }
     }
 
-    .button_ae40a4{
+    .button_f67531{
         margin-left: 4px;
         background-color: $ControlFillColorDefault;
         border: 1px solid $ControlStrokeColorDefault;
@@ -29,8 +29,8 @@
         &:active{
             background-color: $ControlFillColorTertiary;
         }
-        .contents__322f4{ // Non-EN sizing fix
-            .lottieIcon_c7076c{
+        .contents_dd4f85{ // Non-EN sizing fix
+            .lottieIcon_f73ef7{
                 position: absolute;
                 top: 5px;
                 left: 5px;

@@ -1,9 +1,9 @@
-.theme-dark .titleBar__710b0{
+.theme-dark .titleBar_a934d8{
     background-color: transparent;
-    &.withFrame__5e49e{
+    &.withFrame_a934d8{
         height: calc(32px - 4px);
     }
-    .wordmarkWindows_ffbc5e{
+    .wordmarkWindows_a934d8{
         color: $TextFillColorDisabled;
         &::after{
             content: "Discord";
@@ -19,7 +19,7 @@
     }
 
     // Controls
-    .winButton_f17fb6{
+    .winButton_a934d8{
         width: 46px;
         height: 32px;
         background-color: transparent;
@@ -34,7 +34,7 @@
             background-color: $ControlFillColorTertiary;
         }
 
-        &.winButtonClose__6396d{
+        &.winButtonClose_a934d8{
             &:hover{
                 background-color: #C42B1C;
             }
@@ -47,8 +47,8 @@
 
 // Change titlebar name and controls colour when app is focused
 html.theme-dark.app-focused{
-    .wordmarkWindows_ffbc5e,
-    .winButton_f17fb6{
+    .wordmarkWindows_a934d8,
+    .winButton_a934d8{
         color: $TextFillColorPrimary;
     }
 }

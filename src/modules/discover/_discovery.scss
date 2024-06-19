@@ -1,37 +1,37 @@
 .theme-dark{
-    .discoverHeader__9d76e{
+    .discoverHeader_b992d4{
         @include TypeBodyStrong;
     }
 
-    .pageWrapper_c182d3{
+    .pageWrapper_a3a4ce{
         background-color: $LayerFillColorDefault;
         border-top: 1px solid $CardStrokeColorDefault;
         border-left: 1px solid $CardStrokeColorDefault;
         border-radius: 8px 0 0 0;
     }
 
-    .sidebar_e031be{
-        .container_a48b21{
+    .sidebar_a4d4d9{
+        .container_e9f61e{
             height: 32px;
             margin-bottom: 2px;
             position: relative;
 
-            .itemInner_eedb2b{
+            .itemInner_c72b37{
                 height: 32px;
                 padding: 0 8px;
             }
 
-            .avatar__6337f{
+            .avatar_e9f61e{
                 width: 16px;
                 height: 16px;
             }
-            .name__7afe8{
+            .name_e9f61e{
                 @include TypeBody;
                 color: $TextFillColorPrimary;
             }
 
-            &.selected__7f4cb{
-                .itemInner_eedb2b{
+            &.selected_e9f61e{
+                .itemInner_c72b37{
                     background-color: $SubtleFillColorSecondary;
                 }
 
@@ -51,7 +51,7 @@
 
     // Main
     // Search
-    .container_abed14{
+    .container_f69601{
         .searchBox__56feb{
             background-color: transparent;
             box-shadow: none;
@@ -69,7 +69,7 @@
                 }
             }
             .clearIcon__21453,
-            .searchIcon__58dfd{
+            .searchIcon_f69601{
                 width: 16px;
                 height: 16px;
                 position: absolute;
@@ -87,7 +87,7 @@
 
     // Search results
     // Header
-    .header_ec3c67{
+    .header_e37a20{
         @include TypeSubtitle;
         color: $TextFillColorPrimary;
     }
@@ -125,15 +125,15 @@
     }
 
     // Results
-    .categories_bbef0d{
-        .categoryPill_c6ae1b{
+    .categories_f69601{
+        .categoryPill_f69601{
             .categoryLabel-2m4AT-{
                 @include TypeBody;
                 color: $TextFillColorSecondary;
             }
-            &.selected_b5f19b{
+            &.selected_f69601{
                 background-color: $AccentBase;
-                .categoryLabel__236f3{
+                .categoryLabel_f69601{
                     color: $TextFillColorPrimary;
                 }
             }

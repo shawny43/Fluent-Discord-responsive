@@ -1,6 +1,6 @@
 // This file is courtesy of Discord's Department of Redundancy Depart at Discord
 // Add server modal has light theme manually applied to it for some reason.
-.theme-light .root_a28985{
+.theme-light .root_f9a4c9{
     background: $SolidBackgroundFillColorBase;
     border: 1px solid $SurfaceStrokeColorDefault;
     border-radius: 8px;
@@ -8,30 +8,30 @@
 
     // Main page
     // Header (main page)
-    .header__5e5a6{
+    .header_f9a4c9{
         padding: 24px 24px 0 24px;
         background-color: $CardBackgroundFillColorDefault;
         align-items: unset;
-        .title__7e4b8,
-        .subtitle__7ec98{
+        .title_fc9dae,
+        .subtitle_fc9dae{
             text-align: left;
             color: $TextFillColorPrimary !important; // Override inline
         }
-        .title__7e4b8{
+        .title_fc9dae{
             @include TypeSubtitle;
         }
-        .subtitle__7ec98{
+        .subtitle_fc9dae{
             @include TypeBody;
         }
     }
 
     // Content
-    .content_b28aab{
+    .content_f9a4c9{
         padding: 24px 24px 0 24px;
         background-color: $CardBackgroundFillColorDefault;
     }
-    .templatesList__7837c,
-    .optionsList__257cf{
+    .templatesList_fc9dae,
+    .optionsList_f5507e{
         margin-top: 0;
         padding-top: 24px;
         .optionHeader-27AHfD{
@@ -39,21 +39,21 @@
             @include TypeBodyStrong;
             text-transform: none;
         }
-        .container__9dd63{
+        .container_a47d49{
             height: 32px;
             margin-bottom: 4px;
             padding: 0 12px;
             background-color: transparent;
             border: 1px solid transparent;
             border-radius: 4px;
-            .icon__2df73{
+            .icon_a47d49{
                 display: none;
             }
-            .text__67f81{
+            .text_a47d49{
                 color: $TextFillColorPrimary;
                 @include TypeBody;
             }
-            .arrow__5e540{
+            .arrow_a47d49{
                 margin-right: 0;
                 filter: brightness(200%);
             }
@@ -66,40 +66,40 @@
         }
     }
     // Server name
-    .nameInput__2641e{
-        .label_bf6957{
+    .nameInput_c1ee6b{
+        .label_c46f6a{
             color: $TextFillColorPrimary;
             @include TypeBody;
             text-transform: none;
         }
     }
     // Community guidelines
-    .guidelines__22a8d{
+    .guidelines_c1ee6b{
         margin-bottom: 16px;
         color: $TextFillColorSecondary !important; // Override inline
         @include TypeCaption;
     }
     // Skip question
-    .skip_f687eb{
+    .skip_f5507e{
         color: $TextFillColorSecondary !important; // Override inline
         @include TypeCaption;
         text-align: left;
     }
     // Server link
-    .input__0c568{
+    .input_e8a9c7{
         background-color: transparent;
     }
-    .input_f27786,
-    .input_f27786::placeholder{
+    .input_f8bc55,
+    .input_f8bc55::placeholder{
         font-weight: normal;
     }
     // Example links
-    .formTitle__4546d{
+    .formTitle_e8a9c7{
         color: $TextFillColorPrimary;
         @include TypeBody;
         text-transform: none;
     }
-    .sampleLink__0b2d6{
+    .sampleLink_e8a9c7{
         color: $AccentTextFillColorPrimary;
         &:hover{
             color: $AccentTextFillColorSecondary;
@@ -108,14 +108,14 @@
         }
     }
     // Server discovery
-    .rowContainer_a98a8a{
+    .rowContainer_e8a9c7{
         height: 32px;
         margin-bottom: 16px;
         padding: 0 12px;
         background-color: transparent;
         border: 1px solid transparent;
         border-radius: 4px;
-        .rowIcon__559d2{
+        .rowIcon_e8a9c7{
             display: none;
         }
         .heading-md-semibold__76ba1{
@@ -125,7 +125,7 @@
             color: $TextFillColorPrimary;
             @include TypeBody;
         }
-        .rowArrow__5d5d7{
+        .rowArrow_e8a9c7{
             margin-right: 0;
             filter: brightness(200%);
         }
@@ -138,10 +138,10 @@
     }
 
     // Footer
-    .footer_e0b400{
+    .footer_f9a4c9{
         background-color: transparent;
         box-shadow: none;
-        .footerTitle__261e5{
+        .footerTitle_fc9dae{
             @include TypeBodyStrong;
             color: $TextFillColorPrimary;
         }
@@ -150,53 +150,53 @@
 
     // Sub page (de ja vu?)
     // Header
-    .header__5e5a6{
+    .header_f9a4c9{
         padding: 24px 24px 0 24px;
         background-color: $CardBackgroundFillColorDefault;
         align-items: unset;
-        .title__67e02,
-        .subtitle_f9a2be{
+        .title_f5507e,
+        .subtitle_f5507e{
             text-align: left;
             color: $TextFillColorPrimary !important; // Override inline
         }
-        .title__67e02{
+        .title_f5507e{
             @include TypeSubtitle;
         }
-        .subtitle_f9a2be{
+        .subtitle_f5507e{
             @include TypeBody;
         }
     }
 
     // Content
-    .content_b28aab{
+    .content_f9a4c9{
         background-color: $CardBackgroundFillColorDefault;
     }
 
     // Sub sub page (de ja vu?)
     // At least we don't have to do this again
     // Header
-    .header__5e5a6{
+    .header_f9a4c9{
         padding: 24px 24px 0 24px;
         background-color: $CardBackgroundFillColorDefault;
         align-items: unset;
-        .title__813cc,
-        .subtitle_acd9d2{
+        .title_c1ee6b,
+        .subtitle_c1ee6b{
             text-align: left;
             color: $TextFillColorPrimary !important; // Override inline
         }
-        .title__813cc{
+        .title_c1ee6b{
             @include TypeSubtitle;
         }
-        .subtitle_acd9d2{
+        .subtitle_c1ee6b{
             @include TypeBody;
         }
     }
 
     // Content
-    .content_b28aab{
+    .content_f9a4c9{
         background-color: $CardBackgroundFillColorDefault;
     }
-    .createGuild_b81f68{
+    .createGuild_c1ee6b{
         margin-top: 0;
         padding-top: 24px;
     }
@@ -204,16 +204,16 @@
     // I lied just before
     // Join server by URL page
     // Header
-    .header__5e5a6{
+    .header_f9a4c9{
         padding: 24px 24px 0 24px;
         background-color: $CardBackgroundFillColorDefault;
         align-items: unset;
-        .title_d21e21,
+        .title_e8a9c7,
         .text-sm-normal__95a78{
             text-align: left;
             color: $TextFillColorPrimary;
         }
-        .title_d21e21{
+        .title_e8a9c7{
             margin: 0;
             @include TypeSubtitle;
         }
@@ -222,11 +222,11 @@
             color: $TextFillColorPrimary !important; // Override inline
         }
     }
-    .examplesForm__76904 ~ .rowContainer_a98a8a{
+    .examplesForm_e8a9c7 ~ .rowContainer_e8a9c7{
         display: none;
     }
     // Content
-    .content_b28aab{
+    .content_f9a4c9{
         padding-top: 24px;
         border-radius: 0;
     }

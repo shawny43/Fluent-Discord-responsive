@@ -1,18 +1,18 @@
-.theme-dark .sidebarRegion__36437{
+.theme-dark .sidebarRegion_c25c6d{
     flex: 0;
 }
 // Hide scrollbar when not required
-.theme-dark .sidebarRegionScroller__8113e {
+.theme-dark .sidebarRegionScroller_c25c6d {
     background-color: transparent;
 }
 
-.theme-dark .sidebar__02e8d{
+.theme-dark .sidebar_c25c6d{
     // NOTE: 2023-06-13 - 6px to account for the scrollbar
     width: calc(320px - 6px);
     padding: 40px 4px;
 
     // Section header
-    .side_b4b3f6 .eyebrow_b3f8ba{
+    .side_a0 .eyebrow_dc00ef{
         padding: 0 0 0 8px;
         @include TypeBodyStrong;
         color: $TextFillColorPrimary;
@@ -21,12 +21,12 @@
         svg{
             display: none;
         }
-        .category__6faaf{
+        .category_c394c4{
             @include TypeCaption;
         }
     }
 
-    .side_b4b3f6 .item__48dda{
+    .side_a0 .item_a0{
         padding: 0 12px 0 16px;
         margin-bottom: 4px;
         border: 1px solid transparent;
@@ -54,7 +54,7 @@
             transition: transform 167ms Cubic-bezier(0,0,0,1),
                         opacity 167ms Cubic-bezier(0,0,0,1);
         }
-        &.selected_a523ff{
+        &.selected_a0{
             background-color: $SubtleFillColorSecondary;
             &::before{
                 transform: scaleY(100%);
@@ -65,26 +65,26 @@
         }
         // Special cases
         // Remove right side Nitro icon (may differ in some regions)
-        .premiumLabel__68f78 svg{
+        .premiumLabel_ae3c77 svg{
             display: none;
         }
         // Remove background div from nitro option
-        .selectedBackground__4039b{
+        .selectedBackground_ae3c77{
             display: none;
         }
         // Delete channel trash icon
-        .tabBarItemContainer__5d798{
+        .tabBarItemContainer_e7c031{
             svg{
                 display: none;
             }
         }
     }
     // Divider
-    .side_b4b3f6 .separator_d14fb1{
+    .side_a0 .separator_a0{
         margin: 0 -8px;
     }
 
-    .info__755e1{
+    .info_c5a741{
         // Make all version info match colours
         span{
             color: $TextFillColorSecondary !important; // Override inline

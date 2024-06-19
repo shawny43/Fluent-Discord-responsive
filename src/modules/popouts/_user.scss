@@ -1,23 +1,23 @@
-.theme-dark .userPopoutOuter_d67f56{
+.theme-dark .userPopoutOuter_c69a7b{
     @include Elevation32;
 
     // 'plebium' mode
-    .userProfileInnerThemedNonPremium_b64fb4{
+    .userProfileInnerThemedNonPremium_c69a7b{
         background: $AcrylicBackgroundFillColorBase;
         border: 1px solid $SurfaceStrokeColorDefault;
         border-radius: 8px;
-        .overlayBackground__345c9{
+        .overlayBackground_c69a7b{
             background: $LayerOnAcrylicFillColorDefult;
             border-radius: 4px;
         }
     }
 
-    .overlayBackground__345c9{
+    .overlayBackground_c69a7b{
         border-radius: 4px;
     }
 
     // Only display scroll bar when we need it
-    .scroller_f9a667{
+    .scroller_d2b491{
         padding: 0 12px !important;
         overflow-y: auto !important;
     }
@@ -28,51 +28,51 @@
     }
 
     // Section title
-    .title__392bc,
-    .headerText_c0138d{ // 'Deprecated' spotify title
+    .title_c4a579,
+    .headerText_d5089b{ // 'Deprecated' spotify title
         @include TypeBodyStrong;
         text-transform: none;
     }
 
     // Roles
-    .role_d81130{
+    .role_e4010c{
         padding: 4px 4px 4px 0px;
         background-color: transparent;
         border: 1px solid $ControlStrokeColorDefault;
         border-radius: 12px;
         @include TypeCaption;
-        &.addButton__6f12b{
+        &.addButton_e4010c{
             padding: 4px;
         }
     }
 
     // Remove double border on message box
-    .messageInputContainer_a93946{
+    .messageInputContainer_f2c0a8{
         border: 0;
     }
 
     // Spotify/games
-    .assetsLargeImage__57902{
+    .assetsLargeImage_d5089b{
         border-radius: 4px;
     }
-    .timeBarUserPopoutV2__5d401{
-        .bar_e63719{
+    .timeBarUserPopoutV2_d5089b{
+        .bar_aa267a{
             height: 3px;
             background-color: $ControlStrokeColorDefault;
         }
-        .barInner__0f713{
+        .barInner_aa267a{
             height: 3px;
             background-color: $AccentBase;
         }
 
         // Timecode
-        .text__6822d{
+        .text_aa267a{
             @include TypeCaption;
             color: $TextFillColorTertiary;
         }
     }
     // Remove buttons we can't interact with
-    .disabledButtonWrapper_b04230{
+    .disabledButtonWrapper_dd4f85{
         display: none;
     }
 }

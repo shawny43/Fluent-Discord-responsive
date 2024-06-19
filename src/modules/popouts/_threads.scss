@@ -1,29 +1,29 @@
-.theme-dark .browser_fa9cea{
+.theme-dark .browser_f542fc{
     background: $MicaBackgroundFillColorBase;
     backdrop-filter: blur(16px);
     border: 1px solid $SurfaceStrokeColorDefault;
     border-radius: 8px;
 
     // header
-    .header__6d44a{
+    .header_e664f3{
         height: unset;
         min-height: unset;
         padding: 12px 24px;
 
         background-color: transparent;
-        .threadIcon_a292d5{
+        .threadIcon_e664f3{
             display: none;
         }
-        .title__8c726{
+        .title_e664f3{
             @include TypeSubtitle;
         }
     }
 
     // Thread list
-    .list__19127{
+    .list_c6aa12{
         padding: 0 24px !important; // Override inline
 
-        .sectionHeader__0f7c3{
+        .sectionHeader_c6aa12{
             @include TypeBodyStrong;
             color: $TextFillColorPrimary !important; // Override inline
             text-transform: capitalize;
@@ -31,17 +31,17 @@
     }
 
     // Thread
-    .container__9922f{
+    .container_acb8b3{
         background-color: $CardBackgroundFillColorDefault;
         border-radius: 4px;
-        .threadNameLine__43c45{
+        .threadNameLine_acb8b3{
             margin-bottom: 4px;
             @include TypeBody;
-            .threadName_f3cd38{
+            .threadName_acb8b3{
                 color: $TextFillColorPrimary;
             }
         }
-        .subtext__01913{
+        .subtext_acb8b3{
             @include TypeCaption;
             color: $TextFillColorSecondary;
         }

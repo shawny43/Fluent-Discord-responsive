@@ -1,35 +1,35 @@
 .theme-dark{
     // Avatar
-    .avatar__445f3{
+    .avatar_ec3b75{
         svg circle{
             display: none;
         }
     }
 
     // Body
-    .overlayBackground__345c9{
+    .overlayBackground_c69a7b{
         border-radius: 4px;
     }
 
     // Tabs
-    .tabBarContainer_b283be{
+    .tabBarContainer_b9fccc{
         margin-bottom: 20px;
         border: 0;
     }
 
     // Section headers
-    .userInfoSectionHeader_c9f1d3{
+    .userInfoSectionHeader_a24910{
         @include TypeBodyStrong;
         text-transform: none;
     }
 
     // Connected accounts
-    .connectedAccountContainer__5972d{
+    .connectedAccountContainer_f3eb60{
         padding: 8px;
-        .connectedAccountNameText__7abc2{
+        .connectedAccountNameText_f3eb60{
             @include TypeBody;
         }
-        .anchor_c8ddc0{
+        .anchor_af404b{
             text-decoration: none;
             &::before{
                 content: "\E8A7";
@@ -43,14 +43,14 @@
     }
 
     // Mutual servers/friends
-    .listRow__50619{
+    .listRow_e4be58{
         border: 1px solid transparent;
         &:hover{
             background-color: $ControlFillColorDefault;
             border-color: $ControlStrokeColorDefault;
             border-radius: 4px;
         }
-        .listAvatar__67297{
+        .listAvatar_e4be58{
             border-radius: 50%;
         }
     }
