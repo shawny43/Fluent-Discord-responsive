@@ -67,12 +67,20 @@
 }
 
 // Icons
-html[lang^="en-"].theme-dark .panels_a4d4d9 .button_dd4f85:not(.rtcConnectionStatusLabel_c0cb95) {
+html[lang^="en-"].theme-dark .panels_a4d4d9 .button_dd4f85{
     &::before{
         @include FontIconFluent;
         font-size: 16px;
     }
     .contents_dd4f85{
         display: none;
+    }
+}
+
+// Fix connection status text not appearing
+.rtcConnectionStatus_c02c63 .contents_dd4f85{
+    display: block !important;
+    .rtcConnectionStatusLabel_c02c63{
+        font-weight: 500;
     }
 }
