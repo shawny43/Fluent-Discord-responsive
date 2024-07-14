@@ -2,7 +2,7 @@ import os
 import csv
 
 MODULES_PATH = "../src/modules"
-CLASS_MAP = "classes_mapping.csv" # https://github.com/NyxIsBad/discordscripts/blob/master/classes_mapping.csv
+CHANGES = "Changes.txt" # https://github.com/SyndiShanX/Update-Classes/blob/main/Changes.txt
 
 # Get all SCSS files and put them in a list
 filelist = []
@@ -14,20 +14,28 @@ for (dirpath, subdirs, files) in os.walk(MODULES_PATH):
 # Find and replace operation
 # For each SCSS file in the file list...
 for file in filelist:
-    # Open the file in memory
+    # Open the file
     print("opening: ", file)
     with open(file, "r", encoding="utf-8") as file_obj:
         filedata = file_obj.read()
 
-    # Open the CSV
-    with open(CLASS_MAP, encoding="utf-8") as f:
-        csv_reader = csv.DictReader(f)
-        next(csv_reader) # Skips the header
+    # Open the changes file
+    with open(CHANGES, 'r') as rawFile:
+        rawText = "\n".join(line.rstrip() for line in rawFile).split('\n')
 
-        # Find and replace old class with new class
-        for line in csv_reader:
-            # print("finding: ", line["class_old"])
-            filedata = filedata.replace(line["class_old"], line["class_new"])
+    # Start a counter
+    i = 0
+    classNum = len(rawText) - 1
+
+    # Make changes
+    while i < classNum:
+        class1 = rawText[i]
+        class2 = rawText[i + 1]
+
+        filedata = filedata.replace(class1, class2)
+
+        # Increment counter
+        i = i + 2
 
     # Write the file out
     with open(file, "w", encoding="utf-8") as file_obj:
