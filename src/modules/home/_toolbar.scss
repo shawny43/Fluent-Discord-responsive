@@ -1,11 +1,11 @@
 .theme-dark .container_c2739c{
     background-color: transparent;
     // Toolbar
-    .container_e44302{
+    .container_fc4f04{
         background-color: transparent;
 
         // Remove icon
-        .children_e44302 > .iconWrapper_e44302{
+        .children_fc4f04 > .iconWrapper_fc4f04{
             display: none;
         }
 
@@ -49,11 +49,11 @@
         }
 
         // Remove gradient on right-side of tab bar
-        .children_e44302::after{
+        .children_fc4f04::after{
             display: none;
         }
         // Remove divider between Group DM and Inbox
-        .divider_e44302{
+        .divider_fc4f04{
             display: none;
         }
     }

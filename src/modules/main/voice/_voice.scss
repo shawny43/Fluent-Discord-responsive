@@ -5,7 +5,7 @@
 //     transform: unset !important;
 // }
 // Draw debug borders on top toolbar buttons
-// .toolbar_e44302{
+// .toolbar_fc4f04{
 //     border: 1px solid red;
 //     div[role=button],
 //     button[type=button]{
@@ -31,13 +31,13 @@
     .videoControls_dd069c{
         // Top
         .topControls_dd069c{
-            .upperContainer_e44302{
-                .children_e44302{
+            .upperContainer_fc4f{
+                .children_fc4f04{
                     // Remove voice icon
-                    .iconWrapper_e44302{
+                    .iconWrapper_fc4f04{
                         display: none;
                     }
-                    .title_e44302{
+                    .title_fc4f04{
                         padding-left: 12px;
                         @include TypeBodyStrong
                     }
@@ -79,7 +79,7 @@
 
 
                 // Go to "REF: Chat button" for chat button CSS
-                .divider_e44302{
+                .divider_fc4f04{
                     display: none;
                 }
             }
@@ -193,7 +193,7 @@
 
             // Special case for volume control
             // Make the volume icon centred in button
-            .rightTrayIcon_d880dc .volumeButton_c30bea{
+            .rightTrayIcon_d880dc .volumeButton_ea7ad5{
                 width: 34px;
                 height: 34px;
             }
@@ -269,7 +269,7 @@
 
 // Icon replacements
 // Top toolbar (excludes Inbox button)
-html[lang^="en-"].theme-dark .toolbar_e44302{
+html[lang^="en-"].theme-dark .toolbar_fc4f04{
     .button_dd4f85{
         &::before{
             @include FontIconFluent;

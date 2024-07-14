@@ -3,17 +3,17 @@
     border-radius: 0;
 
     // Toolbar
-    .container_e44302{
+    .container_fc4f04{
         background-color: transparent;
-        .children_e44302{
+        .children_fc4f04{
             // Removes small gradient
             &::after{
                 display: none;
             }
-            > .iconWrapper_e44302{
+            > .iconWrapper_fc4f04{
                 display: none;
             }
-            .title_e44302{
+            .title_fc4f04{
                 @include TypeBodyStrong;
             }
         }

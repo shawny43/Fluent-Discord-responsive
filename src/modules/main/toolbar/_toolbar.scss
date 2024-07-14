@@ -1,27 +1,27 @@
 .theme-dark .title_a7d72e, // Normal toolbar
-.theme-dark .container_e44302{ // Browse channels toolbar
+.theme-dark .container_fc4f04{ // Browse channels toolbar
     padding: 0 0 0 20px;
-    &.themed_e44302{
+    &.themed_fc4f04{
         background-color: transparent;
     }
     // Channel & MOTD
     // Remove hash symbol
-    .children_e44302{
+    .children_fc4f04{
         // Gradient at end of MOTD field
         &::after{
             display: none;
         }
-        .iconWrapper_e44302{
+        .iconWrapper_fc4f04{
             display: none;
         }
     }
     // Channel name
-    .title_e44302{
+    .title_fc4f04{
         @include TypeBodyStrong
     }
 
     // Remove divider
-    .divider_e44302{
+    .divider_fc4f04{
         display: none;
     }
 
@@ -32,13 +32,13 @@
     }
 
     // Add some margin to the caret when in fullscreen thread view
-    .caret_e44302{
+    .caret_fc4f04{
         margin-right: 8px;
     }
 }
 
 // Toolbar
-.theme-dark .toolbar_e44302{
+.theme-dark .toolbar_fc4f04{
     // Using these selectors so there are fewer conflicts in the voice screen
     div[role=button]:not(.iconLayout_effbe2), // :not excludes the search/clear button in the search bar
     button[type=button]{
@@ -59,7 +59,7 @@
         }
 
         // Selected
-        &.selected_e44302{
+        &.selected_fc4f04{
             background-color: $AccentFillColorSecondary;
             &::before{
                 color: $TextOnAccentFillColorPrimary;
@@ -79,7 +79,7 @@
         left: 38px;
         @include TypeCaption;
     }
-    .iconBadge_e44302{
+    .iconBadge_fc4f04{
         width: 16px;
         height: 3px;
         right: 22px;
@@ -91,8 +91,8 @@
 }
 
 // Icon replacements
-html[lang^="en-"].theme-dark .toolbar_e44302{
-    .iconWrapper_e44302{
+html[lang^="en-"].theme-dark .toolbar_fc4f04{
+    .iconWrapper_fc4f04{
         &::before{
             @include FontIconFluent;
             width: 60px;
@@ -103,7 +103,7 @@ html[lang^="en-"].theme-dark .toolbar_e44302{
             display: block;
         }
         // Remove default icon
-        .icon_e44302,
+        .icon_fc4f04,
         .controlIcon-35oS15{
             display: none;
         }

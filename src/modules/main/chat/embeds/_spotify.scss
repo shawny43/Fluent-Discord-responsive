@@ -1,31 +1,31 @@
-.theme-dark .invite_cdcad9{
+.theme-dark .invite_f61cb8{
     background-color: $CardBackgroundFillColorDefault;
     border: 1px solid $SurfaceStrokeColorFlyout;
     border-radius: 8px;
 
     // Header
-    .header_cdcad9{
+    .header_f61cb8{
         color: $TextFillColorPrimary;
         @include FontNormal;
         @include TypeBodyStrong;
         text-transform: none;
     }
 
-    .partyStatus_cdcad9 {
+    .partyStatus_f61cb8 {
         @include TypeBody;
     }
-    .details_cdcad9,
-    .state_cdcad9{
+    .details_f61cb8,
+    .state_f61cb8{
         font-size: inherit;
     }
 
     // Artwork
-    .artwork_cdcad9{
+    .artwork_f61cb8{
         border-radius: 4px;
     }
 
     // Ended
-    .artworkSpotifySessionEnded_cdcad9{
+    .artworkSpotifySessionEnded_f61cb8{
         background-image: none;
         &::before{
             content: "\E15B"; // Stop

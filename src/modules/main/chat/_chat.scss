@@ -84,17 +84,17 @@
 }
 
 // Divider
-.divider_fc5f50{
+.divider_c2654d{
     justify-content: flex-end;
     border-color: $DividerStrokeColorDefault;
-    .content_fc5f50,
-    .unreadPill_fc5f50{
+    .content_c2654d,
+    .unreadPill_c2654d{
         padding: 2px 8px;
         background-color: $SystemFillColorSolidNeutralBackground;
         color: $TextFillColorPrimary;
         @include TypeCaption;
     }
-    .unreadPill_fc5f50{
+    .unreadPill_c2654d{
         height: unset;
         top: -1px;
         background-color: $SystemFillColorCriticalBackground;
@@ -105,13 +105,13 @@
             display: none;
         }
     }
-    &.isUnread_fc5f50{
+    &.isUnread_c2654d{
         // NOTE: 2021-08-29 - The border should technically be SystemFillColorCriticalBackground, but is barely visisble, so using the text fill instead.
         border-color: $SystemFillColorCritical;
-        .content_fc5f50{
+        .content_c2654d{
             border-radius: 8px 0 0 8px;
         }
-        .unreadPill_fc5f50{
+        .unreadPill_c2654d{
             position: relative;
         }
     }
@@ -178,7 +178,7 @@
 }
 
 // inline code
-.markup_d6076c code{
+.markup_f8f345 code{
     background-color: $LayerFillColorDefault;
 }
 
@@ -211,7 +211,7 @@
 }
 
 // Remove avatar borders/decorations
-.avatarDecoration_ec86aa{
+.avatarDecoration_f9f2ca{
     display: var(--fluent-show-avatar-decorations);
 }
 
@@ -219,7 +219,7 @@
 .wrapper_ba0ffb{
     background-color: transparent;
     // The placeholding items wrappers
-    .wrapper_b211c6{
+    .wrapper_b75bb9{
         background-color: transparent;
     }
 }
