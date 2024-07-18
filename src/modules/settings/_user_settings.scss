@@ -161,7 +161,7 @@
             border-color: $ControlStrokeColorDefault;
             border-radius: 4px;
             // Set a static emoji icon
-            .emojiButton_af14ca{
+            .emojiButton_d91a75{
                 margin: 0 4px 0 0;
                 &::before{
                     content: "\E76E"; //Emoji2
@@ -169,7 +169,7 @@
                     @include FontIconFluent;
                     font-size: 16px;
                 }
-                &.emojiButtonHovered_af14ca::before{
+                &.emojiButtonHovered_d91a75::before{
                     color: $TextFillColorPrimary;
                 }
                 .contents_dd4f85{
@@ -408,13 +408,13 @@
 
     // Keybinds
     // Warning
-    .container_f20685.warning_f20685{
+    .container_bc1f7a.warning_bc1f7a{
         height: 48px;
         padding: 8px 16px;
         background-color: $CardBackgroundFillColorDefault;
         border: 1px solid $CardStrokeColorDefault;
         @include TypeBody;
-        .iconDiv_f20685{
+        .iconDiv_bc1f7a{
             align-self: center;
             svg{
                 width: 16px;
@@ -422,7 +422,7 @@
                 color: $SystemFillColorAttention;
             }
         }
-        .text_f20685{
+        .text_bc1f7a{
             margin-left: 16px;
         }
 
@@ -528,13 +528,13 @@
         // Last played
         .lastPlayed_fd966d{
             color: $TextFillColorSecondary;
-            .default_c0d6c6{
+            .default_e07331{
                 @include TypeCaption;
                 strong{
                     font-weight: normal;
                 }
             }
-            .hovered_c0d6c6{
+            .hovered_e07331{
                 @include FontMonospace;
                 @include TypeCaption;
             }

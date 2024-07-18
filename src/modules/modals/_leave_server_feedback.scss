@@ -5,17 +5,17 @@
     }
 
     .problemInfo_b58b14{
-        .root_ee4ca6{
+        .root_c3b890{
             background-color: $CardBackgroundFillColorDefault;
             border: 1px solid $CardStrokeColorDefault;
             border-radius: 4px;
         }
-        .option_ee4ca6{
+        .option_c3b890{
             &:hover{
                 background-color: $CardBackgroundFillColorSecondary;
             }
         }
-        .text_ee4ca6{
+        .text_c3b890{
             @include TypeBody;
         }
     }

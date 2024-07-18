@@ -117,8 +117,8 @@
                 font-size: 18px;
             }
             &:hover,
-            &.active_cecf00,
-            &.emojiButtonHovered_af14ca{
+            &.active_f9af59,
+            &.emojiButtonHovered_d91a75{
                 background-color: $ControlFillColorDisabled;
                 border-color: $ControlStrokeColorDefault;
                 &::before{
@@ -128,7 +128,7 @@
         }
 
         // Always hide the emoji button icon since it can be directly selected
-        .emojiButton_af14ca{
+        .emojiButton_d91a75{
             .contents_dd4f85{
                 display: none;
             }
@@ -169,7 +169,7 @@
             display: none;
         }
         // Set a static emoji icon
-        .emojiButton_af14ca{
+        .emojiButton_d91a75{
             margin: 0 4px 0 0;
             &::before{
                 content: "\E76E"; //Emoji2

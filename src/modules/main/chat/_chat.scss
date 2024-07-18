@@ -240,7 +240,7 @@
             border-bottom-color: $AccentBase;
         }
     }
-    .emojiButton_af14ca{
+    .emojiButton_d91a75{
         height: 32px;
         width: 32px;
         margin: 6px 4px 0 0;
@@ -251,7 +251,7 @@
             @include FontIconFluent;
             font-size: 16px;
         }
-        &.emojiButtonHovered_af14ca{
+        &.emojiButtonHovered_d91a75{
             background-color: $ControlFillColorDisabled;
             border-color: $ControlStrokeColorDefault;
             &::before{

@@ -1,12 +1,12 @@
 .theme-dark .channelTextArea_a7d72e{
     &:focus-within{
-        .autocomplete_f23da8{
+        .autocomplete_bcc24e{
             border-color: $ControlStrokeColorDefault;
         }
     }
 }
 
-.theme-dark .autocomplete_f23da8{
+.theme-dark .autocomplete_bcc24e{
     bottom: calc(100% + 4px);
     box-shadow: none;
     background-color: $CardStrokeColorDefaultSolid;
@@ -52,7 +52,7 @@
     }
 
     // Commands matching: header
-    .contentTitle_f23da8{
+    .contentTitle_bcc24e{
         @include TypeBody;
         color: $TextFillColorPrimary;
         text-transform: none;
@@ -67,7 +67,7 @@
     }
 
     // Command
-    .base_f23da8{
+    .base_bcc24e{
         &.selected-3H3-RC{
             background-color: $SubtleFillColorSecondary;
             box-shadow: inset 0 0 0 1px $SubtleFillColorSecondary; // Using box-shadow because borders cause the div to grow;
