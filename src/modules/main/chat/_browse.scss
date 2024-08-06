@@ -1,6 +1,6 @@
 // Channels & Roles
-.theme-dark .header_f1fd9c {
-    background-color: transparent;
+.theme-dark .header_f1fd9c{
+    background: transparent !important; // Override inline
     .iconWrapper_fc4f04{
         display: none;
     }
@@ -8,6 +8,7 @@
 .theme-dark .content_a7d72e {
     height: calc(100% - 1px);
     padding: 0;
+    background: $LayerFillColorDefault !important; // Override inline
     border-top: 1px solid $CardStrokeColorDefault;
     border-left: 1px solid $CardStrokeColorDefault;
     border-radius: 8px 0 0 0;
@@ -32,6 +33,9 @@
     }
 
     // Browse channels
+    .pageBody_c2efea{
+        background-color: transparent;
+    }
     .channelRow_f04d06 {
         background-color: $CardBackgroundFillColorDefault;
         border-width: 1px 1px 0 1px;
@@ -58,5 +62,28 @@
         .checkbox_f6cde8{
             display: block;
         }
+    }
+}
+
+// Members
+.theme-dark .page_d20375{
+    background-color: transparent !important;
+    .header_d20375{
+        box-shadow: none;
+    }
+    .scroller_d20375{
+        background-color: $LayerFillColorDefault;
+        border-top: 1px solid $CardStrokeColorDefault;
+        border-left: 1px solid $CardStrokeColorDefault;
+        border-radius: 8px 0 0 0;
+    }
+
+    .content_a7d72e{
+        background-color: transparent !important;
+        // border: 0;
+    }
+    .mainTableContainer_e23072{
+        background-color: transparent;
+        box-shadow: none;
     }
 }
