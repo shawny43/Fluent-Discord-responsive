@@ -108,12 +108,12 @@
         // Bottom
         .bottomControls_dd069c{
             .controlButton_b6e2f9{
-                height: 32px;
+                height: 56px;
                 margin: 0 4px;
                 &.button_dd4f85{
-                    min-width: 64px;
+                    min-width: 56px;
                     height: 32px;
-                    padding: 8px 16px;
+                    padding: 8px 14px;
                     background-color: $ControlFillColorDefault;
                     border: 1px solid $ControlStrokeColorDefault;
                     border-radius: 4px;
@@ -145,9 +145,9 @@
                         mask: none;
                     }
                     .button_dd4f85{
-                        min-width: 64px;
+                        min-width: 56px;
                         height: 32px;
-                        padding: 8px 16px;
+                        padding: 8px 14px;
                         background-color: $ControlFillColorDefault;
                         border: 1px solid $ControlStrokeColorDefault;
                         border-radius: 4px;
