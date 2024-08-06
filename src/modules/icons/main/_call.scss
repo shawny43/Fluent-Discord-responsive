@@ -28,7 +28,7 @@ html[lang^="en-"].theme-dark .wrapper_b6e2f9 .button_dd4f85{
         // There's no Call Reject icon, so have to reuse
         content: "\E137"; // HangUp
     }
-    &[aria-label="Start an Activity"]::before{
+    &[aria-label="Start An Activity"i]::before{
         content: "\EA86"; // Puzzle
     }
     &[aria-label="Leave Activity"]::before{
