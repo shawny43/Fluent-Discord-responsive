@@ -10,33 +10,33 @@
     }
 
      // Member
-     .container_e9f61e{
+     .container_d808b0{
         background-color: transparent;
         color: $TextFillColorPrimary;
         // Greyscale offline avatars
         &.offline_a31c43{
-            .avatar_e9f61e{
+            .avatar_d808b0{
                 filter: grayscale(100%);
             }
             &:hover{
-                .avatar_e9f61e{
+                .avatar_d808b0{
                     filter: grayscale(0%);
                 }
             }
         }
-        .layout_e9f61e{
+        .layout_d808b0{
             border: 1px solid transparent;
             &:hover{
                 background-color: $SubtleFillColorSecondary;
                 border-color: $SubtleFillColorSecondary;
             }
         }
-        &[aria-expanded=true] .layout_e9f61e{
+        &[aria-expanded=true] .layout_d808b0{
             background-color: $SubtleFillColorSecondary;
             border-color: $SubtleFillColorSecondary;
         }
         // Username
-        .name_e9f61e{
+        .name_d808b0{
             @include TypeBody;
         }
         // Activity

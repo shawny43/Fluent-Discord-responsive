@@ -42,13 +42,13 @@
         overflow-y: auto !important; // Override inline
     }
 
-    .header_f14193{
+    .header_e3c1c6{
         @include TypeBodyStrong;
         color: $TextFillColorPrimary;
         text-transform: none;
     }
 
-    .result_f14193{
+    .result_e3c1c6{
         &[aria-selected=true]{
             background-color: $SubtleFillColorSecondary;
             &::before{
@@ -63,12 +63,12 @@
             }
         }
 
-        .name_f14193{
+        .name_e3c1c6{
             @include TypeBody;
             color: $TextFillColorPrimary;
             line-height: 32px;
-            .username_f14193,
-            .note_f14193{
+            .username_e3c1c6,
+            .note_e3c1c6{
                 margin: 0;
                 opacity: 1;
                 @include TypeCaption;
@@ -85,10 +85,10 @@
 
     // Footer
     .protip_f4e139{
-        .pro_dcc874{
+        .pro_b5053a{
             display: none;
         }
-        .tip_dcc874{
+        .tip_b5053a{
             @include TypeCaption;
             color: $TextFillColorSecondary;
             opacity: 1;

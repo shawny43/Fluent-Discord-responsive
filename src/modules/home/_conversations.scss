@@ -1,6 +1,6 @@
 .theme-dark .privateChannels_f0963d{
     .link_c91bad[href="/channels/@me"]{
-        .avatar_f9647d{
+        .avatar_ec8679{
             &::before{
                 content: "\E13D"; // Contact
                 @include FontIconFluent;
@@ -20,7 +20,7 @@
         &:focus-within{
             background-color: $SubtleFillColorSecondary;
             box-shadow: inset 0 0 0 1px $SubtleFillColorSecondary;
-            .name_f9647d{
+            .name_ec8679{
                 color: $TextFillColorPrimary;
             }
         }
@@ -28,12 +28,12 @@
             background-color: $SubtleFillColorSecondary;
         }
 
-        .layout_f9647d{
+        .layout_ec8679{
             padding: 0 8px;
         }
 
         // Name
-        .name_f9647d{
+        .name_ec8679{
             @include TypeBody;
             color: $TextFillColorSecondary;
         }

@@ -344,7 +344,7 @@
     // Billing
     &#billing-tab{
         // Only apply to the main header, not the secondary "Transaction History" header
-        .title_c46f6a .flex_bba380{
+        .title_c46f6a .flex_dc333f{
             margin-bottom: 32px;
             @include TypeTitle;
             // Remove lock icon
@@ -427,7 +427,7 @@
         }
 
         // Align the Add keybind button with middle of warning
-        ~.flexChild_bba380{
+        ~.flexChild_dc333f{
             align-self: center;
         }
     }

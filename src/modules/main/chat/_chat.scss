@@ -183,9 +183,9 @@
 }
 
 // Blocked message
-.compact_e62b38 .blockedSystemMessage_c09d0f{
+.compact_d76df7 .blockedSystemMessage_c09d0f{
     margin-left: -5ch;
-    .iconContainer_e62b38{
+    .iconContainer_d76df7{
         margin-right: 1ch;
         padding-top: 2px;
         &::before{
@@ -197,8 +197,8 @@
         }
     }
 }
-.cozy_e62b38 .blockedSystemMessage_c09d0f{
-    .iconContainer_e62b38{
+.cozy_d76df7 .blockedSystemMessage_c09d0f{
+    .iconContainer_d76df7{
         padding-top: 2px;
         &::before{
             content: "\ECE4"; // Blocked2

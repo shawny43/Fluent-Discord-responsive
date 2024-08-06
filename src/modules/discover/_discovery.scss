@@ -11,7 +11,7 @@
     }
 
     .sidebar_a4d4d9{
-        .container_e9f61e{
+        .container_d808b0{
             height: 32px;
             margin-bottom: 2px;
             position: relative;
@@ -21,16 +21,16 @@
                 padding: 0 8px;
             }
 
-            .avatar_e9f61e{
+            .avatar_d808b0{
                 width: 16px;
                 height: 16px;
             }
-            .name_e9f61e{
+            .name_d808b0{
                 @include TypeBody;
                 color: $TextFillColorPrimary;
             }
 
-            &.selected_e9f61e{
+            &.selected_d808b0{
                 .itemInner_c72b37{
                     background-color: $SubtleFillColorSecondary;
                 }
