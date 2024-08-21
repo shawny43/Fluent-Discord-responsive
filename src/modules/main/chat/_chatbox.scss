@@ -308,4 +308,43 @@
     .applicationCommandEducation-1stoia{ // Thread
         display: none;
     }
+
+    // App launcher
+    .channelAppLauncher_df39bd{
+        margin-bottom: 8px;
+        margin-left: 8px;
+        // Icon replacement
+        .app-launcher-entrypoint{
+            .contents_dd4f85::before{
+                content: "\ED35"; // Apps
+                @include FontIconFluent;
+                font-size: 18px;
+                color: $TextFillColorSecondary;
+            }
+            &:hover .contents_dd4f85::before{
+                color: $TextFillColorPrimary;
+            }
+            &.buttonActive_df39bd::before{
+                color: $TextFillColorPrimary;
+            }
+            .lottieIcon_f73ef7{
+                display: none !important;
+            }
+        }
+        .button_df39bd{
+            width: 48px;
+            height: 48px;
+            background-color: $ControlFillColorDefault;
+            border-width: 1px;
+            border-style: outset;
+            border-color: $ControlElevationBorder;
+            color: $TextFillColorPrimary;
+            &:hover{
+                background-color: $ControlFillColorSecondary;
+            }
+            &.buttonActive_df39bd{
+                background-color: $ControlFillColorTertiary;
+            }
+        }
+    }
 }
