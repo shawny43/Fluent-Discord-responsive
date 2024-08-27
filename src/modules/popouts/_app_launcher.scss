@@ -1,0 +1,87 @@
+.theme-dark .contentWrapper_f7506e{
+    background: $MicaBackgroundFillColorBase;
+    backdrop-filter: blur(16px);
+    // Search
+    .container_c18ec9.medium_c18ec9{
+        background-color: transparent;
+        input.input_c18ec9{
+            height: 32px;
+            padding: 0 8px;
+            border: 1px solid;
+            border-bottom-width: 2px;
+            border-color: $ControlStrokeColorDefault;
+            border-radius: 4px;
+            @include TypeBody;
+            background-color: $ControlFillColorDefault;
+            color: $TextFillColorSecondary;
+            &:hover{
+                border-color: $ControlStrokeColorSecondary;
+            }
+            &:focus{
+                background-color: $ControlFillColorInputActiveBrush;
+                color: $TextFillColorPrimary;
+                border-color: $ControlStrokeColorDefault;
+                border-bottom-color: $AccentBase;
+            }
+            &::placeholder{
+                color: $TextFillColorSecondary;
+            }
+        }
+        .iconLayout_c18ec9 {
+            position: absolute;
+            top: 6px;
+            right: 8px;
+
+            // Home friends table seach bar
+            &.medium_c18ec9{
+                width: 22px;
+                height: 22px;
+                .iconContainer_c18ec9{
+                    width: 16px;
+                    height: 16px;
+                }
+            }
+        }
+    }
+
+    // Cards
+    .container_e5da8b{
+        background-color: $ControlFillColorDefault;
+        border-width: 1px;
+        border-style: outset;
+        border-color: $ControlElevationBorder;
+        border-radius: 4px;
+        &:hover{
+            background-color: $ControlFillColorSecondary;
+        }
+    }
+
+    // App "profile"
+    .container_ec8cd2{
+
+        background-color: transparent;
+        .profileAndVideoContainer_e80fe9{
+            padding: 0 8px;
+            border: 0;
+        }
+        .overviewContainerNoVideo_e80fe9{
+            background-color: transparent;
+            padding: 0;
+        }
+
+        // List of commands
+        .contentContainer_f37ac2{
+            padding: 0 24px;
+        }
+        .commandContainer_f37ac2{
+            background-color: $ControlFillColorDefault;
+            border-width: 1px;
+            border-style: outset;
+            border-color: $ControlElevationBorder;
+            border-radius: 4px;
+        }
+        .command_f37ac2{
+            background-color: transparent;
+        }
+    }
+}
