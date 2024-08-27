@@ -20,7 +20,7 @@
     .accountProfileCard_b69b77{
         background-color: transparent;
         // Remove coloured banner
-        .bannerSVGWrapper_b32cc2{
+        .mask_c3e427{
             display: none;
         }
 
@@ -38,7 +38,6 @@
                 position: relative;
                 top: unset;
                 left: unset;
-                border: 2px solid #000;
                 svg{
                     width: unset !important; // Override inline
                     height: unset !important; // Override inline
