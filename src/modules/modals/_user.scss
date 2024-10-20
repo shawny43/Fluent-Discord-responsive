@@ -24,9 +24,9 @@
     }
 
     // Connected accounts
-    .connectedAccountContainer_f3eb60{
+    .connectedAccountContainer_ab12c6{
         padding: 8px;
-        .connectedAccountNameText_f3eb60{
+        .connectedAccountNameText_ab12c6{
             @include TypeBody;
         }
         .anchor_af404b{
@@ -43,14 +43,14 @@
     }
 
     // Mutual servers/friends
-    .listRow_e4be58{
+    .listRow_d2d6cb{
         border: 1px solid transparent;
         &:hover{
             background-color: $ControlFillColorDefault;
             border-color: $ControlStrokeColorDefault;
             border-radius: 4px;
         }
-        .listAvatar_e4be58{
+        .listAvatar_d2d6cb{
             border-radius: 50%;
         }
     }
