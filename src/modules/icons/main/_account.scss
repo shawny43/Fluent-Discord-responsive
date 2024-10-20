@@ -74,3 +74,12 @@ html[lang^="en-"].theme-dark .panels_a4d4d9 .actionButtons_adcaac button.button_
         content: "\F0ED" // SpatialVolume2
     }
 }
+
+html[lang^="en-"].theme-dark .userPopoutOuter_c69a7b .button_bba79b{
+    &[aria-label^="Edit"]::before{
+        content: "\E70F" // Edit
+    }
+    &[aria-label^="Clear"]::before{
+        content: "\E894" // Clear
+    }
+}
