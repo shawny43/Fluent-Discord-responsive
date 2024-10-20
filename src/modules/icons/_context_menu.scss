@@ -683,6 +683,9 @@
     &[id="channel-attach-upload-file"]::before{
         content: "\E11C"; // Upload
     }
+    &[id="channel-attach-poll"]::before{
+        content: "\e133"; // Poll
+    }
     &[id="channel-attach-THREAD"]::before{
         content: "\E15C"; // ShowResults
     }
