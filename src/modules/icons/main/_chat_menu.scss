@@ -60,5 +60,8 @@ html[lang^="en-"].theme-dark .wrapper_f7e168{
         &[aria-label="Remove Attachment"]::before{
             content: "\E107"; // Delete
         }
+        &[aria-label="Forward"]::before {
+            content: "\E72A"; // Forward
+        }
     }
 }
