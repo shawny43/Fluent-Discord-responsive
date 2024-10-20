@@ -546,6 +546,9 @@
     &[id="message-report"]::before{
         content: "\E730"; // Filter
     }
+    &[id="message-forward"]::before{
+        content: "\E72A"; // Forward
+    }
 }
 // Message action
 .theme-dark .menu_d90b3d .item_d90b3d{
