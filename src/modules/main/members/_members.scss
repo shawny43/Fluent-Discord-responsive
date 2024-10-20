@@ -81,6 +81,17 @@
             @include TypeCaption;
         }
     }
+
+    // Activity
+    .container_c64476{
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        &.selected_c64476{
+            background-color: $SubtleFillColorSecondary;
+            border-color: $SubtleFillColorSecondary;
+        }
+    }
 }
 
 // Remove avatar borders/decorations
