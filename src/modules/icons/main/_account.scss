@@ -75,7 +75,8 @@ html[lang^="en-"].theme-dark .panels_a4d4d9 .actionButtons_adcaac button.button_
     }
 }
 
-html[lang^="en-"].theme-dark .userPopoutOuter_c69a7b .button_bba79b{
+html[lang^="en-"].theme-dark .userPopoutOuter_c69a7b .button_bba79b,
+html[lang^="en-"].theme-dark .userProfileOuter_c69a7b .button_bba79b{
     &[aria-label^="Edit"]::before{
         content: "\E70F" // Edit
     }
