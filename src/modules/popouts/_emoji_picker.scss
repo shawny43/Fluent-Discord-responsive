@@ -126,6 +126,9 @@
                 vertical-align: middle;
             }
             &[aria-label="top guild emoji"]::before{
+                content: "\ECAD"; // Calories
+            }
+            &[aria-label="favorites"]::before{
                 content: "\E734"; // FavoriteStar
             }
             &[aria-label="recent"]::before{
