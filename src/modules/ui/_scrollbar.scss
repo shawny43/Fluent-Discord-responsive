@@ -28,3 +28,17 @@
         background-color: $ControlStrongFillColorDefault;
     }
 }
+
+// Chatbox
+.theme-dark .scrollableContainer_bdf0de{
+    &::-webkit-scrollbar{
+        width: 6px;
+    }
+    &::-webkit-scrollbar-track,
+    &::-webkit-scrollbar-thumb{
+        border-width: 2px;
+    }
+    &::-webkit-scrollbar-thumb{
+        background-color: $ControlStrongFillColorDefault;
+    }
+}
