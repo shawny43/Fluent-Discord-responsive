@@ -25,13 +25,16 @@
             border-bottom-color: $AccentBase;
         }
     }
+    .themedBackground_bdf0de{
+        background: transparent;
+    }
     .scrollableContainer_d0696b{
         background-color: transparent;
         border-radius: 4px;
         overflow-y: auto;
     }
 
-    .sansAttachButton_d0696b{
+    .sansAttachButton_bdf0de {
         padding-left: 0;
     }
 
@@ -51,7 +54,7 @@
 
 
     // Upload button
-    .attachButton_d0696b{
+    .attachButton_bdf0de {
         width: 32px;
         height: 32px;
         margin: 6px 0 6px 6px;
@@ -76,7 +79,7 @@
         }
     }
     // Upload button when command is entered
-    .hasConnectedBar_d0696b .attachButton_d0696b{
+    .hasConnectedBar_d0696b .attachButton_bdf0de {
         // Hide our upload icon
         &::before{
             content: "";
@@ -95,7 +98,7 @@
     // Bot command bot icon
     // NOTE - 2022-12-18: This can be tested using the `/embed create` command from Carl-bot
     // NOTE - 2022-12-18: `:not(button)` is required because the normal attach button uses the same class
-    .attachButton_d0696b:not(button){
+    .attachButton_bdf0de :not(button){
         margin-left: 0;
     }
 
@@ -125,6 +128,10 @@
                     color: $TextFillColorPrimary;
                 }
             }
+
+        }
+        &:last-of-type{
+            margin-right: 0;
         }
 
         // Always hide the emoji button icon since it can be directly selected
@@ -135,7 +142,7 @@
         }
 
         // Replace sticker icon
-        .contents_dd4f85.stickerButton_d0696b{
+        .contents_dd4f85.stickerButton_bdf0de{
             &::before{
                 content: "\F4AA"; // Sticker2
                 @include FontIconFluent;
