@@ -85,7 +85,7 @@
         }
 
         // Remove Discord icons, unless it's a checkbox
-        &:not([role="menuitemcheckbox"]):not([role="menuitemradio"]){
+        &:not([role="menuitemcheckbox"]):not([role="menuitemradio"]):not([id^="message-add-reaction"]){
             .icon_d90b3d{
                 display: none;
             }
