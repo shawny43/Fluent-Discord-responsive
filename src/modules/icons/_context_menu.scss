@@ -115,6 +115,9 @@
     &[id="user-context-note"]::before{
         content: "\E70B"; // QuickNote
     }
+    &[id="user-context-invite-to-listen"]::before{
+        content: "\F623"; // MusicSharing
+    }
     &[id="user-context-mute"]::before{
         content: "\E198"; // Mute
     }
@@ -144,6 +147,9 @@
     }
     &[id="user-context-kick"]::before{
         content: "\F140"; // StopCircleBlock
+    }
+    &[id="user-context-mod-view"]::before{
+        content: "\E890"; // View
     }
     &[id="user-context-ban"]::before{
         content: "\F140"; // StopCircleBlock
@@ -295,6 +301,9 @@
     }
     &[id="channel-context-invite-people"]::before{
         content: "\E1E2"; // AddFriend
+    }
+    &[id="channel-context-invite-to-listen"]::before{
+        content: "\F623"; // MusicSharing
     }
     &[id="channel-context-edit-channel"]::before{
         content: "\E104"; // Edit
@@ -465,12 +474,7 @@
 
 // Message
 .theme-dark .menu_d90b3d .item_d90b3d{
-    &[id="message-add-reaction-0"]::before{
-        // Intentionally not displaying an icon as it is a submenu, and would also require icon reuse
-        content: "\E9CE"; // Unknown
-        visibility: hidden;
-    }
-    &[id="message-add-reaction-1"]::before{
+    &[id="message-add-reaction"]::before{
         // Intentionally not displaying an icon as it is a submenu, and would also require icon reuse
         content: "\E9CE"; // Unknown
         visibility: hidden;
