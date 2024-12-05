@@ -1,6 +1,13 @@
-.botTagRegular_c89c9a{
+.botTagRegular_a9e77f{
     background-color: $SystemFillColorSolidAttentionBackground;
     text-transform: none;
+    .botText_a9e77f{
+        font-weight: normal;
+        text-transform: lowercase;
+        &::first-letter{
+            text-transform: uppercase;
+        }
+    }
 }
 
 // Thread OP (who is not a bot btw...)
