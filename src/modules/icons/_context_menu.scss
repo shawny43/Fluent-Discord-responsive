@@ -546,6 +546,9 @@
     &[id="message-report"]::before{
         content: "\E730"; // Filter
     }
+    &[id="message-forward"]::before{
+        content: "\E72A"; // Forward
+    }
 }
 // Message action
 .theme-dark .menu_d90b3d .item_d90b3d{
@@ -679,6 +682,9 @@
 .theme-dark .menu_d90b3d .item_d90b3d{
     &[id="channel-attach-upload-file"]::before{
         content: "\E11C"; // Upload
+    }
+    &[id="channel-attach-poll"]::before{
+        content: "\e133"; // Poll
     }
     &[id="channel-attach-THREAD"]::before{
         content: "\E15C"; // ShowResults
