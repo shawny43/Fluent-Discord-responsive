@@ -11,8 +11,18 @@
             }
         }
     }
+    // Remove the nitro button
     .link_c91bad[href="/store"]{
         display: none;
+    }
+
+    // Remove badges from the shop button
+    .channel_c91bad{
+        .link_c91bad[data-list-item-id*="___shop"]{
+            .newBadge_a25714{
+                display: none;
+            }
+        }
     }
 
     .interactive_c91bad{
